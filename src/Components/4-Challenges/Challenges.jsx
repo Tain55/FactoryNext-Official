@@ -4,6 +4,8 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import './Challenges.css';
 import CardC from './CardC';
 import image1 from '../Images/Challenges/image 30.png'
+import image2 from '../Images/Challenges/image 31.png'
+import image3 from '../Images/Challenges/image 32.png'
 
 
 
@@ -12,14 +14,14 @@ import image1 from '../Images/Challenges/image 30.png'
 const Challenges = () => {
   const cards = [
     { title: 'Hidden Loss', image: image1},
-    { title: 'Lack of Reliable Real-Time Data', image: image1},
-    { title: 'No infrastructure for data driven decision making', image: image1},
+    { title: 'Lack of Reliable Real-Time Data', image: image2},
+    { title: 'No infrastructure for data driven decision making', image: image3},
     { title: 'Hidden Loss 2', image: image1},
-    { title: 'Lack of Reliable Real-Time Data 2', image: image1},
-    { title: 'No infrastructure for data driven decision making 2', image: image1},
+    { title: 'Lack of Reliable Real-Time Data 2', image: image2},
+    { title: 'No infrastructure for data driven decision making 2', image: image3},
     { title: 'Hidden Loss 3', image: image1},
-    { title: 'Lack of Reliable Real-Time Data 2', image: image1},
-    { title: 'No infrastructure for data driven decision making 3', image: image1},
+    { title: 'Lack of Reliable Real-Time Data 3', image: image2},
+    { title: 'No infrastructure for data driven decision making 3', image: image3},
   ];
 
   const [itemsToShow, setItemsToShow] = useState(1);
