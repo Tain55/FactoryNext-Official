@@ -7,11 +7,12 @@
 
 .transform-body-first{
     width: 50%;
-    background: blue;
-    margin: auto;
+    background: hsl(240, 100%, 50%);
+    margin-top: auto;
+    margin-bottom: auto;
     display: flex;
     flex-direction: column;
-    
+    justify-content: start;   
 }
 .transform{
     background-color: aqua;
@@ -27,7 +28,7 @@
 
 
 .transform-body-first .heading{
-    font-size: 48px;
+    font-size: 45px;
     font-weight: 700;
     margin-top: 0%;
     background-color: red;

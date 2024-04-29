@@ -14,9 +14,9 @@ const transform = () => {
                     <p className='heading'>Transform your Industry with Factory Next</p>
                     <p>The Ecosystem for Smart Factories</p>
                     <div className='transform-buttons'>
-                        <p onClick={() => setSelectedText('A')} style={{ cursor: 'pointer', fontWeight: selectedText === 'A' ? 'bold' : 'normal' }}>Manufacturing and Process monitoring solution</p>
-                        <p onClick={() => setSelectedText('B')} style={{ cursor: 'pointer', fontWeight: selectedText === 'B' ? 'bold' : 'normal' }}>Environmental Monitoring and Compliance</p>
-                        <p onClick={() => setSelectedText('C')} style={{ cursor: 'pointer', fontWeight: selectedText === 'C' ? 'bold' : 'normal' }}>Smart Energy and Utility Management</p>
+                        <p className='transformB oneT' onClick={() => setSelectedText('A')} style={{ cursor: 'pointer', fontWeight: selectedText === 'A' ? 'bold' : 'normal' }}>Manufacturing and Process monitoring solution</p>
+                        <p className='transformB twoT' onClick={() => setSelectedText('B')} style={{ cursor: 'pointer', fontWeight: selectedText === 'B' ? 'bold' : 'normal' }}>Environmental Monitoring and Compliance</p>
+                        <p className='transformB threeT' onClick={() => setSelectedText('C')} style={{ cursor: 'pointer', fontWeight: selectedText === 'C' ? 'bold' : 'normal' }}>Smart Energy and Utility Management</p>
                     </div>
                 </div>
                 
