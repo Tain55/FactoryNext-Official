@@ -1,0 +1,62 @@
+.nutshell{
+    width: 100%;
+    height: fit-content;
+    background: #F8F8F8;
+}
+
+.nutshell-details{
+    margin-top: -20px;
+    width: 92%;
+    display: flex;
+    justify-content: space-between;
+    margin-left:auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.nutshell-content{
+    width: 33.33%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.nutshel-heading{
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 110px;
+    margin-top: -10px;
+    border-width: 3px;
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-image: linear-gradient(90deg, #2966F7, #FF00CF) 1;
+}
+
+.nutshell-2{
+    border: .5px solid #A7A5A6;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.nutshell-details img{
+    height: 150px;
+}
+
+.nutshel-descriprion{
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 400px;
+}
+
+.nutshell-content .image{
+    width: 40%;
+    height: 30%;
+}
+
+.nutshell-content .image img{
+    width: 100%;
+    object-fit: contain;
+}

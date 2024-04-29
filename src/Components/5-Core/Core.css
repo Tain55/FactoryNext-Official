@@ -1,0 +1,64 @@
+.core{
+    width: 100%;
+    height: fit-content;
+    background: #091E6C;
+    color: white;
+    
+    padding-bottom: 100px;
+}
+.sub-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+    margin-top: -60px;
+    margin-bottom: 70px;
+}
+
+.core-details{
+    width: 87%;
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.core-content{
+    width: 33.33%;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.core--2{
+    border: .5px solid #a7a5a685;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.core-details img{
+    height: 150px;
+}
+
+
+
+.core-descriprion{
+    font-size: 19px;
+    line-height: 30px;
+    font-weight: 400px;
+}
+
+/* have to change height and width for different screen size */
+.core-content .image{
+    width: 200px;
+    height: 200px;
+}
+
+.image img{
+    width: 100%;
+    object-fit:contain;
+    height: 100%;
+    border: solid rgba(255, 255, 255, 0.749);
+    border-radius: 17px;
+    border-width: 1px;
+}

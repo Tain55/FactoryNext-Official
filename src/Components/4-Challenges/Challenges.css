@@ -1,0 +1,58 @@
+/* Challenges.css */
+.challenges {
+  width: 100%; /* Adjust max-width as needed */
+  height: fit-content;
+  margin-bottom: -52px;
+  background-color: #212834;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 70px;
+}
+
+.challenge-cards{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; /* Add this line */
+}
+
+.modify{
+  color: white;
+}
+.card-group {
+  display: flex; /* Adjust as needed */
+  margin-bottom: 40px;/* Adjust margin between groups */
+}
+
+.card-item {
+  /* flex: 1; */
+  padding: 0 0px; /* Adjust padding as needed */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel{
+  width: 100%;
+}
+
+
+
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.dot.selected {
+  background-color: #D7D7D7; /* Color for selected dot */
+}
+
+.dot.unselected {
+  background-color: rgba(255, 255, 255, 0.301)
+  ; /* Color for unselected dots */
+}

@@ -1,0 +1,28 @@
+.card {
+    width: 340px;
+    height: 344px;
+    background-color: #212730;
+    border: 1px solid rgba(255, 255, 255, 0.176);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+
+  }
+
+  .card p {
+    color: white;
+    height: 50px;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .imageC{
+    margin-top: 15px;
+    height: 222px;
+    border-radius: 10px;
+  }

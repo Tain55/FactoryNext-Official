@@ -1,0 +1,95 @@
+.more{
+    font-size: 70px;
+    font-weight: 800;
+    justify-content: left;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.footbody-1{
+    width: 100%;
+    padding-bottom: 80px;
+}
+.footbody-2{
+    width: 85%;
+    margin: auto;
+
+}
+.foot-nuber{
+    display: flex;
+    justify-content:flex-start;
+}
+.foot-number-box{
+    padding-right: 40px;
+    border-right: 1px solid #A7A5A6;
+    margin-right: 25px;
+}
+.foot-number-box .number{
+    font-size: 60px;
+    font-weight: 700;
+    color: #1570ef;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.foot-number-box .text{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.icon-down{
+    font-size: 20px;
+    position:relative;
+    top: 5px;
+}
+
+.final{
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: none;
+}
+
+.logo-box-title{
+    margin-top: 115px;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 78px;
+    margin-bottom: 40px;
+}
+
+.logo-box-grid{
+    padding-top: 25px;
+    margin-right: -12px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.logo-box{
+    height: 100px;
+    border: 1px solid #A7A5A6;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.logo-box img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.button-width{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.button-width button{
+    background: #231F20;
+    height: 56px;
+    width: 168px;
+    color: white;
+}
+

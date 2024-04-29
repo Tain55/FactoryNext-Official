@@ -1,0 +1,50 @@
+.solution-1{
+    width: 100%;
+}
+
+.solution-2{
+    width: 84%;
+    margin: auto;
+}
+
+.solution-des{
+    text-align: center;
+    font-size: 21px;
+    line-height: 38px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.image{
+    width: 95.5%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.solution-boxes{
+    height: 320px;
+    width: 290px;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+.solution-boxes img{
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.solution-contents{
+    display: flex;
+    justify-content: center;
+    justify-items: right;
+    padding-bottom: 50px;
+}
+.solution-contents-2{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 10px;
+}

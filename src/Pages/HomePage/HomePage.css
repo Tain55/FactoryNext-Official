@@ -1,0 +1,9 @@
+.title{
+    padding-top: 70px;
+    line-height: 120px;
+    font-weight: 700;
+    font-size: 52px;
+    font: bold;
+    display: flex;
+    justify-content: center;
+}
