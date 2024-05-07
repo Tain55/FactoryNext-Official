@@ -1,6 +1,7 @@
 .partner-body{
-    height: 710px;
+    height: fit-content;
     background: #F8F8F8;
+    padding-bottom: 100px;
 }
 
 
@@ -61,4 +62,252 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+
+@media (max-width: 1275px){
+    .partner-logos{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .logo1 {
+        height: 100px;
+        width: 250px;
+        border: 0.5px solid #A7A5A6;
+        border-left: none;
+        border-top: none;
+        position: relative;
+    }
+    
+    .logo2 {
+        height: 100px;
+        width: 250px;;
+        border: 0.5px solid #A7A5A6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .logo3{
+        height: 100px;
+        width: 250px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: relative;
+    }
+    
+    .logo4{
+        height: 100px;
+        width: 250px;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: relative;
+    }
+
+
+    .partner-logos img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 45px;
+    }
+    .modifyTitle{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .partner-body{
+        padding-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 1050px){
+    .partner-logos{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+
+    .logo1 {
+        height: 85px;
+        width: 210px;
+        border: 0.5px solid #A7A5A6;
+        border-left: none;
+        border-top: none;
+        position: relative;
+    }
+    
+    .logo2 {
+        height: 85px;
+        width: 210px;
+        border: 0.5px solid #A7A5A6;
+        border-left: none;
+        border-top: none;
+        border-right: none;
+        position: relative;
+    }
+    
+    .logo3{
+        height: 85px;
+        width: 210px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: relative;
+    }
+    
+    .logo4{
+        height: 85px;
+        width: 210px;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: relative;
+    }
+
+
+    .partner-logos img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 40px;
+    }
+    .modifyTitle{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .partner-body{
+        padding-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 900px){
+    .partner-logos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .logosmall1{
+        height: 70px;
+        width: 150px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        position: relative;
+    }
+    .logosmall2{
+        height: 70px;
+        width: 150px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    .logosmall3{
+        height: 70px;
+        width: 150px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: relative;
+    }
+    .logosmall4{
+        height: 70px;
+        width: 150px;
+        position: relative;
+    }
+    .partner-logos img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 28px;
+    }
+    .modifyTitle{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .partner-body{
+        padding-bottom: 70px;
+    }
+
+}
+
+
+@media (max-width: 500px){
+    
+
+    .partner-logos{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .logosmall1{
+        height: 50px;
+        width: 100px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        position: relative;
+    }
+    .logosmall2{
+        height: 50px;
+        width: 100px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        position: relative;
+    }
+    .logosmall3{
+        height: 50px;
+        width: 100px;
+        border: 0.5px solid #A7A5A6;
+        border-top: none;
+        border-left: none;
+        border-bottom: none;
+        position: relative;
+    }
+    .logosmall4{
+        height: 50px;
+        width: 100px;
+        position: relative;
+    }
+    .partner-logos img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        height: 18px;
+    }
+    .modifyTitle{
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10px;
+        text-align: center;
+        line-height: 45px;
+    }
+    .partner-body{
+        padding-bottom: 70px;
+    }
+
 }

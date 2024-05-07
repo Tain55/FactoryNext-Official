@@ -10,13 +10,13 @@ const transform = () => {
     return (
         <div className='transform-body'>
             <div className='transform-body-first'>
-                <div className='transform'>
+                <div className='transform modifyTransform'>
                     <p className='heading'>Transform your Industry with Factory Next</p>
                     <p className='heading2'>The Ecosystem for Smart Factories</p>
                     <div className='transform-buttons'>
-                        <p className='transformB oneT' onClick={() => setSelectedText('A')} style={{ cursor: 'pointer', color: selectedText === 'A' ? '#393536' : '#9d9d9d' }}>Manufacturing and Process monitoring</p>
-                        <p className='transformB twoT' onClick={() => setSelectedText('B')} style={{ cursor: 'pointer', color: selectedText === 'B' ? '#393536' : '#9d9d9d' }}>Environmental Monitoring and Compliance</p>
-                        <p className='transformB threeT' onClick={() => setSelectedText('C')} style={{ cursor: 'pointer', color: selectedText === 'C' ? '#393536' : '#9d9d9d' }}>Smart Energy and Utility Management</p>
+                        <div className='transformTotal'><p className='transformB oneT' onClick={() => setSelectedText('A')} style={{cursor: 'pointer', color: selectedText === 'A' ? '#393536' : '#9d9d9d'}}>Manufacturing and Process monitoring</p> <div className={`white arrowA ${selectedText === 'A' ? 'active' : ''}`}></div></div>
+                        <div className='transformTotal'><p className='transformB twoT' onClick={() => setSelectedText('B')} style={{ cursor: 'pointer', color: selectedText === 'B' ? '#393536' : '#9d9d9d'}}>Environmental Monitoring and Compliance</p><div className={`white arrowB ${selectedText === 'B' ? 'active' : ''}`}></div></div>
+                        <div className='transformTotal'> <p className='transformB threeT' onClick={() => setSelectedText('C')} style={{ cursor: 'pointer', color: selectedText === 'C' ? '#393536' : '#9d9d9d'}}>Smart Energy and Utility Management</p> <div className={`white arrowC ${selectedText === 'C' ? 'active' : ''}`}></div></div>
                     </div>
                 </div>
             </div>

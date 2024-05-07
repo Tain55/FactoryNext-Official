@@ -7,7 +7,6 @@
 
 .transform-body-first{
     width: 50%;
-    padding-left: 3%;
     margin-bottom: auto;
     display: flex;
     flex-direction: column;
@@ -15,7 +14,7 @@
     padding-top: 30px;
 }
 .transform{
-    width: 80%;
+    width: 85%;
     height: fit-content;
     margin: auto;
     margin-top: 10%;
@@ -24,6 +23,8 @@
     flex-direction: column;
     justify-content: start;
 }
+
+
 
 
 .transform-body-first .heading{
@@ -43,7 +44,6 @@
 .transform-body-second{
     width: 50%;
     background: #f8f7f7;
-    padding-right: 3%;
     display: flex;
     line-height: 28px;
     padding-top: 30px;
@@ -79,15 +79,17 @@
     line-height: 42px;
     color: #231F20;
     margin-top: 0px;
+    animation: slideFromLeft .3s ease forwards;
 }
 
 .trans-2-peragraph{
     font-weight: 400;
-    font-size: 15px;
+    animation: slideFromLeft .5s ease forwards;
 }
 
 .trans-image{
     width: 100%;
+    animation: slideFromLeft .7s ease forwards;
 }
 
 .trans-image img{
@@ -95,3 +97,163 @@
     object-fit: cover;
     border-radius: 8px;
 }
+
+
+.transformB:hover{
+    
+    transition: color 0.2s ease;
+    color: #393536 !important;
+}
+.transformTotal{
+    display: flex;
+    align-items: center;
+}
+.white{
+    height: 0px;
+    width: 0;
+    border: 15px solid #ff00d076;
+    /* border: 15px solid #ff00d051; */
+    border-width: 10px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+    animation: arrowSlideFromRight 0.7s ease forwards;
+    display: none;
+    border-radius: 20%;
+}
+
+.arrowA.active, .arrowB.active, .arrowC.active {
+    display: block; /* Display active arrow */
+}
+
+
+/* ///////////////////// */
+
+@keyframes arrowSlideFromRight{
+    from {
+        transform: translateX(-850%);
+      }
+      to {
+        transform: translateX(0);
+      }
+}
+
+@keyframes arrowSlideFromTop{
+    from {
+        transform: translateY(-60%);
+      }
+      to {
+        transform: translateX(0);
+      }
+}
+
+@keyframes slideFromLeft {
+    from {
+      transform: translateX(50%);
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+
+
+
+
+
+@media (max-width: 1000px){
+    .arrowA.active, .arrowB.active, .arrowC.active {
+        display: block; /* Display active arrow */
+    }
+    .transformTotal{
+        display: flex;
+        flex-direction: column;
+    }
+    .white{
+        animation: arrowSlideFromTop 0.8s ease forwards;
+        border: 15px solid #ff00d076;
+        /* border: 15px solid #ff00d051; */
+        border-width: 10px;
+        border-left: 15px solid transparent;
+        border-bottom: 15px solid transparent;
+        border-right: 15px solid transparent;
+        margin-top: 10px;
+        margin-bottom: -20px;
+    }
+    .modifyTransform{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 5px;
+    }
+
+    .transform-body{
+        flex-direction: column;
+    }
+
+    .transform-body-first{
+        width: 100%;
+        height: fit-content;
+    }
+    .transform-body-second{
+        width: 100%;
+        height: fit-content;
+    }
+    .transform-body-first .heading{
+        font-size: 20px;
+        font-weight: 700;
+        margin-top: 0%;
+    }
+    .heading2{
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 21px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    .transformB{
+        width: 100%;
+        font-size: 15px;
+        line-height: 21px;
+        flex-direction: row;
+    }
+    .transform-buttons{
+        margin-top: 30px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 5%;
+        border-bottom: 1px solid #A7A5A6;
+    }
+
+    .oneT{
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+        border-top: none;
+    }
+    
+    .twoT{
+        border: none;
+    }
+    
+}
+
+@media (max-width: 650px){
+    .transformB{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 560px){
+    .twoT{
+        
+    text-align: center;
+    }
+    
+    
+
+    .transform-body-second{
+        width: 100%;
+    }
+}
+

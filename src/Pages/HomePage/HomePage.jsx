@@ -13,13 +13,17 @@ import Blogs from './../../Components/11-Blogs/Blogs';
 import Challenges from './../../Components/4-Challenges/Challenges';
 import Serve from './../../Components/7-Serve/Serve';
 import Leaders from './../../Components/10-Leaders/Leaders';
+import NavigationBar from './../../Components/1-NavigationBar/NavigationBar';
+import ChallengesTwo from './../../Components/Challenges-2/ChallengesTwo';
 
 const HomePage = () => {
     return (
-        <div>
+        <div className='homepage'>
+            <NavigationBar/>     
             <Image/>
             <Transform/>
-            <Challenges/>
+            {/* <Challenges/> */}
+            <ChallengesTwo/>
             <Core/>
             <Solutions/>
             <Serve/>

@@ -1,0 +1,39 @@
+.teamBody{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 100px;
+    background-color: #212834;
+}
+
+.moreTtitle{
+    color: white;
+}
+
+.teamDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 23px;
+}
+
+.teamImage{
+    margin-top: 20px;
+    margin-bottom: -10px;
+    display: flex;
+    justify-content: center;
+}
+.teamBox{
+    height: 180px;
+    width: 250px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.teamBox p{
+    text-align: center;
+    color: #212834;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 42px;
+}

@@ -6,19 +6,63 @@
 
 .image-text{
     position: relative;
-    width: 600px;
-    color: white;
+    bottom: 170px;
     width: 100%;
-    bottom: 200px;
+    color: white;
     z-index: 0;
     font-weight: bold;
-    font-size: 65px;
+    font-size: 60px;
     text-align: center;
-    margin-bottom: -153px;
+    margin-bottom: -141px;
     font-family: "Poppins", sans-serif;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.image-text p{
-    width: 750px;
+.image-p{
+    width: 60%;
     margin: auto;
+}
+
+@media (max-width: 1200px){
+    .image-text{
+        font-size: 50px;
+        padding-bottom: 23px;
+    }
+    .image-text p{
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px){
+    .image-text{
+        font-size: 40px;
+        bottom: 120px;
+        margin-bottom: -100px;
+    }
+}
+
+@media (max-width: 940px){
+    .image-text{
+        font-size: 40px;
+        bottom: 120px;
+        margin-bottom: -100px;
+    }
+}
+
+@media (max-width: 800px){
+    .image-text{
+        font-size: 30px;
+        bottom: 110px;
+        margin-bottom: -90px;
+    }
+}
+
+@media(max-width: 700px){
+    .image-text{
+        font-size: 25px;
+    bottom: 80px;
+    margin-bottom: -90px;
+        
+    }
 }

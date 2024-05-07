@@ -19,21 +19,21 @@ import React from 'react';
 const Partnership = () => {
     return (
         <div className='partner-body'>
-            <p className='title'>Partnership and Collaborations</p>
+            <p className='title modifyTitle'>Partnership and Collaborations</p>
             <div className='partner-logo-box'>
                 <div className='partner-logos'>
-                    <div className='logo1'><img src={img1} alt="" /></div>
-                    <div className='logo1'><img src={img2} alt="" /></div>
-                    <div className='logo1'><img src={img3} alt="" /></div>
-                    <div className='logo2'><img src={img4} alt="" /></div>
-                    <div className='logo1'><img src={img5} alt="" /></div>
-                    <div className='logo1'><img src={img6} alt="" /></div>
-                    <div className='logo1'><img src={img7} alt="" /></div>
-                    <div className='logo2'><img src={img8} alt="" /></div>
-                    <div className='logo3'><img src={img9} alt="" /></div>
-                    <div className='logo3'><img src={img10} alt="" /></div>
-                    <div className='logo3'><img src={img11} alt="" /></div>
-                    <div className='logo4'><img src={img12} alt="" /></div>
+                    <div className='logo1 logosmall1'><img src={img1} alt="" /></div>
+                    <div className='logo1 logosmall1'><img src={img2} alt="" /></div>
+                    <div className='logo1 logosmall2'><img src={img3} alt="" /></div>
+                    <div className='logo2 logosmall1'><img src={img4} alt="" /></div>
+                    <div className='logo1 logosmall1'><img src={img5} alt="" /></div>
+                    <div className='logo1 logosmall2'><img src={img6} alt="" /></div>
+                    <div className='logo1 logosmall1'><img src={img7} alt="" /></div>
+                    <div className='logo2 logosmall1'><img src={img8} alt="" /></div>
+                    <div className='logo3 logosmall2'><img src={img9} alt="" /></div>
+                    <div className='logo3 logosmall3'><img src={img10} alt="" /></div>
+                    <div className='logo3 logosmall3'><img src={img11} alt="" /></div>
+                    <div className='logo4 logosmall4'><img src={img12} alt="" /></div>
                 </div>
             </div>
         </div>

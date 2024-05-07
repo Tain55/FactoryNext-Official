@@ -1,0 +1,30 @@
+.work-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.btnMore{
+    width: 240px;
+}
+
+.btncolor{
+    background-color: white;
+    color: #231F20;
+}
+
+.buttons{
+    display: flex;
+    gap: 30px;
+}
+
+.cMore{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.bMore{
+    margin-top: 0px;
+}

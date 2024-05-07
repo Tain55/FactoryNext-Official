@@ -35,3 +35,26 @@
     padding-top: 50px;
     border-radius: 10px;
   }
+  .cardServe .descriptionCardServe{
+    font-weight: 500;
+    width: 100%;
+    height: fit-content;
+    font-size: 16px;
+  }
+  .cardServe .descriptionCardServe{
+    display: none;
+    margin-top: 0px;
+  }
+
+  .cardServe:hover .descriptionCardServe{
+    display: block;
+  }
+
+  .cardServe:hover .background-shadow {
+    height: 100%;
+    /* background: #231f2069; */
+    background: #231f209c;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+  }

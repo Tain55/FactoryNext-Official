@@ -4,16 +4,29 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Image from '../src/Components/2-Image/Image'
 import HomePage from './Pages/HomePage/HomePage'
+import AboutPage from './Pages/AboutPage/AboutPage';
+import InformationDesk from './Pages/InformationDeskPage/InformationDesk';
+import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
 
 function App() {
 
   return (
     <div className='view'>
-      <HomePage/>
+      {/* <HomePage/> */}
+      {/* <AboutPage/> */}
+      {/* <InformationDesk/> */}
+
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<HomePage/>}/>
+          <Route path='/about' element={<AboutPage/>}/>
+          <Route path='/informationdesk' element={<InformationDesk/>}/>
+        </Routes>
+      </BrowserRouter>      
+
     </div>
   )
 }
 export default App
-
 
 

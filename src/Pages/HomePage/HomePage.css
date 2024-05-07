@@ -7,3 +7,25 @@
     display: flex;
     justify-content: center;
 }
+
+.homepage{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -8px;
+}
+
+
+@media (max-width: 1000px){
+    .title{
+        padding-top: 60px;
+        padding-bottom: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 28px;
+        
+        font: bold;
+        display: flex;
+        justify-content: center;
+    }
+
+}

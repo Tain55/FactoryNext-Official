@@ -40,11 +40,12 @@
 
 
 
+
 .dot {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  display: inline-block;
+  display: flex;
   margin: 0 5px;
 }
 
@@ -53,6 +54,15 @@
 }
 
 .dot.unselected {
-  background-color: rgba(255, 255, 255, 0.301)
-  ; /* Color for unselected dots */
+  background-color: rgba(255, 255, 255, 0.301); /* Color for unselected dots */
 }
+
+
+
+@media (max-width: 1000px){
+  .modify{
+    text-align: center;
+    line-height: 40px;
+  }
+}
+

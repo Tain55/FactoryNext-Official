@@ -13,21 +13,21 @@ const Nutshell = () => {
                     <p className='title'>Factory Next in a Nutshell</p>
                     <div className='nutshell-details'>
                         <div className='nutshell-content nutshell-1'>
-                            <div className='image'><img src={nutshell1} alt="" /></div>
+                            <div className='NutModify'><img src={nutshell1} alt="" /></div>
                             <p className='nutshel-heading'>Our Mission</p>
                             <p className='nutshel-descriprion'>Our mission is to improve productivity and profitability of factories with next generation technologies and data-driven solutions.</p>
 
                         </div>
 
                         <div className='nutshell-content nutshell-2'>
-                            <div className='image'><img src={nutshell2} alt="" /></div>
+                            <div className=' NutModify'><img src={nutshell2} alt="" /></div>
                             <p className='nutshel-heading'>Our Vison</p>
                             <p className='nutshel-descriprion'>Our mission is to improve productivity and profitability of factories with next generation technologies and data-driven solutions.</p>
 
                         </div>
 
                         <div className='nutshell-content nutshell-3'>
-                            <div className='image'><img src={nutshell3} alt="" /></div>
+                            <div className=' NutModify'><img src={nutshell3} alt="" /></div>
                             <p className='nutshel-heading'>Our Values</p>
                             <p className='nutshel-descriprion'>Our mission is to improve productivity and profitability of factories with next generation technologies and data-driven solutions.</p>
 
