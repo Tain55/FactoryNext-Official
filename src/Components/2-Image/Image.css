@@ -27,7 +27,7 @@
 
 .tag-line {
   position: absolute;
-  bottom: 0;
+  bottom: 5%;
   text-align: center;
   color: white;
   z-index: 1;
