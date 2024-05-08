@@ -47,7 +47,7 @@ const Footprints = () => {
                             <p className='text'>Live IoT Devices</p>
                         </div>
                         <div className='foot-number-box'>
-                            <p className='number'><CountUp end={8} duration={3} redraw={true} />8 +</p>
+                            <p className='number'><CountUp end={8} duration={3} redraw={true} /> +</p>
                             <p className='text'>Industries</p>
                         </div>
                         <div className='foot-number-box final'>
