@@ -15,6 +15,8 @@ const Footer = () => {
     setShowSolutionsDropdown(!showSolutionsDropdown);
   };
 
+  const currentYear = new Date().getFullYear();
+  
   return (
     <div>
       <div className='footer-body'>
@@ -73,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer-bottom'>
-        <p>© 2023 Factory Next | All Rights Reserved | An ARTHOR Initiative</p>
+        <p>© {currentYear} Factory Next | All Rights Reserved | An ARTHOR Initiative</p>
       </div>
     </div>
   );
