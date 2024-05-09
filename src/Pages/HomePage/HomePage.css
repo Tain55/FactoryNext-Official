@@ -1,6 +1,6 @@
 .title{
     padding-top: 70px;
-    line-height: 120px;
+    line-height: 90px;
     font-weight: 700;
     font-size: 52px;
     font: bold;
@@ -18,7 +18,7 @@
 @media (max-width: 1000px){
     .title{
         padding-top: 60px;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
         line-height: 40px;
         font-weight: 700;
         font-size: 28px;

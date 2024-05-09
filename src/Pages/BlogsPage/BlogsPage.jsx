@@ -1,16 +1,16 @@
 import React from 'react';
 import './BlogsPage.css'
 import BlogsImage from './../../Components/23-BlogsImage/BlogsImage';
-import BlogComponent from './../../Components/11-Blogs/BlogComponent';
 import NavigationBar from './../../Components/1-NavigationBar/NavigationBar';
 import Footer from './../../Components/14-Footer/Footer';
+import BlogsCompo from './../../Components/24-BlogsComponents/BlogsCompo';
 
 const BlogsPage = () => {
     return (
         <div className='homepage'>
             <NavigationBar/>
             <BlogsImage/>
-            <BlogComponent/>
+            <BlogsCompo/>
             <Footer/>
         </div>
     );

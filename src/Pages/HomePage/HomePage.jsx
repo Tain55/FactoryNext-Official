@@ -22,7 +22,7 @@ const HomePage = () => {
             <NavigationBar/>     
             <Image/>
             <Transform/>
-            <Challenges/>
+            {/* <Challenges/> */}
             <ChallengesTwo/>
             <Core/>
             <Solutions/>
