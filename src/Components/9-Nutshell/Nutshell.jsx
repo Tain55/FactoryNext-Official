@@ -10,7 +10,7 @@ const Nutshell = () => {
         <div>
             <div className='nutshell'>
                 <div className='nutshell-body'>
-                    <p className='title'>Factory Next in a Nutshell</p>
+                    <p className='title moreNutshelltitle'>Factory Next in a Nutshell</p>
                     <div className='nutshell-details'>
                         <div className='nutshell-content nutshell-1'>
                             <div className='NutModify'><img src={nutshell1} alt="" /></div>

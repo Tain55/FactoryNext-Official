@@ -14,7 +14,7 @@ const NavigationBar = () => {
   const navLinkStyles = ({isActive}) =>{
       return{
         textDecoration: isActive ? 'none' : 'none',
-        color: isActive ? 'white' : ' rgba(255, 255, 255, 0.6)',
+        color: isActive ? '#1570EF' : 'white',
         // fontWeight: isActive ? '700': 'normal',
         fontWeight: 'bold',
         fontSize: '16px',

@@ -1,10 +1,11 @@
 .more{
-    font-size: 70px;
+    font-size: 72px;
     font-weight: 800;
-    justify-content: left;
+    justify-content: center;
     margin-bottom: 40px;
     margin-top: 30px;
     margin-bottom: 50px;
+    text-align: center;
 }
 .footbody-1{
     width: 100%;
@@ -19,6 +20,7 @@
 .foot-nuber{
     display: flex;
     justify-content:space-between;
+    margin-left: auto;margin-right: auto;
 }
 .foot-number-box{
     padding-right: 40px;
@@ -43,7 +45,6 @@
 .icon-down{
     font-size: 20px;
     position:relative;
-    top: 5px;
 }
 
 .final{
@@ -58,6 +59,8 @@
     font-weight: 800;
     line-height: 78px;
     margin-bottom: 40px;
+    text-align: center;
+    color: #737373;
 }
 
 .logo-box-grid{
@@ -93,6 +96,10 @@
     height: 56px;
     width: 168px;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 /* commentout */
@@ -114,7 +121,7 @@
     border: 1px solid #A7A5A6;
 }
 .foot-number-box-small .number-small{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     color: #1570ef;
     margin-top: 10px;
@@ -148,17 +155,35 @@
     border-top: none;
 }
 
+
+.foot-number-box .number{
+    font-size: 72px;
+}
+
 @media (min-width: 1001px){
     .foot-nuber-small{
         display: none;
     }
 }
 
+@media (max-width: 1365px){
+    .foot-number-box .number{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 1200px){
+    .foot-number-box .number{
+        font-size: 30px;
+    }
+}
+
+
 @media (max-width: 1000px){
     .more{
         font-size: 30px;
         font-weight: 800;
-        justify-content: left;
+        justify-content: center;
         margin-bottom: 40px;
         margin-top: 30px;
         margin-bottom: 0px;
@@ -196,13 +221,16 @@
     .foot-nuber{
         display: none;
     }
+    .foot-number-box .number{
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 500px){
     .more{
         font-size: 30px;
         font-weight: 800;
-        justify-content: left;
+        justify-content: center;
         margin-bottom: 40px;
         margin-top: 30px;
         margin-bottom: 0px;
@@ -213,7 +241,7 @@
     }
 
     .foot-number-box-small .number-small{
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 700;
         color: #1570ef;
         margin-top: 10px;
@@ -263,4 +291,6 @@
         display: none;
     }
 }
+
+
 

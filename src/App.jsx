@@ -8,6 +8,7 @@ import AboutPage from './Pages/AboutPage/AboutPage';
 import InformationDesk from './Pages/InformationDeskPage/InformationDesk';
 import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
 import BlogsPage from './Pages/BlogsPage/BlogsPage'
+import BlogDetailPage from './Pages/BlogDetailPage/BlogDetailPage'
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' element={<AboutPage/>}/>
           <Route path='/informationdesk' element={<InformationDesk/>}/>
           <Route path='/blogs' element={<BlogsPage/>} />
+          <Route path= '/blogDetailPage' element={<BlogDetailPage/>}/>
         </Routes>
       </BrowserRouter>      
 

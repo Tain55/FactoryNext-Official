@@ -35,12 +35,14 @@
 }
 
 .footer-details-first button{
+    cursor: pointer;
     background-color: #082EB5;
     border: none;
     color: white;
     font-size: 15px;
     width: 180px;
     height: 50px;
+    border-radius: 4px;
 }
 
 .footer-details-second{
@@ -85,6 +87,7 @@
     background: rgba(255, 255, 255, 0.073);
     border: 1px solid rgba(255, 255, 255, 0.336);
     border-radius: 4px ;
+    cursor: pointer;
 }
 
 .footer-bottom{
@@ -196,6 +199,9 @@
     .footer-details-first p{
         margin-top: 0%;
         font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        
     }
 
     .footer-details-first button{
@@ -244,6 +250,7 @@
         background: rgba(255, 255, 255, 0.073);
         border: 1px solid rgba(255, 255, 255, 0.336);
         border-radius: 4px ;
+        cursor: pointer;
     }  
     .footer-buttons ul{
         flex-wrap: wrap;
@@ -253,6 +260,7 @@
     }
     .footer-bottom{
         font-size: 13px;
+        text-align: center;
     }  
 }
 

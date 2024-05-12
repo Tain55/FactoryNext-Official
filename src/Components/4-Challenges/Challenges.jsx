@@ -79,7 +79,7 @@ const Challenges = () => {
 
   return (
     <div className="challenges">
-      <p className='title modify'>Industrial Landscape Challenges</p>
+      <p className='title modifyHeadingChallenges'>Industrial Landscape Challenges</p>
       <div className='challenge-cards'>
         <Carousel className='carousel'
           showArrows={false} // Hide arrow buttons

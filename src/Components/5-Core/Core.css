@@ -6,6 +6,10 @@
     margin-bottom: -52px;
     padding-bottom: 100px;
 }
+
+.coreHeadingColor{
+    color: white;
+}
 .sub-title{
     font-size: 28px;
     font-weight: 500;
@@ -17,6 +21,7 @@
 
 .core-details{
     width: 87%;
+    max-width: 1200px;
     display: flex;
     justify-content: space-between;
     margin:auto;
@@ -50,8 +55,8 @@
 
 /* have to change height and width for different screen size */
 .core-content .image{
-    width: 200px;
-    height: 200px;
+    width: 244px;
+    height: 244px;
 }
 
 .image img{
@@ -64,8 +69,17 @@
 }
 
 @media (max-width: 1000px){
-    .core{
-        
+    .sub-title{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 50px;
+    }
+    .core-content .image{
+        width: 160px;
+        height: 160px;
     }
     .sub-title{
         font-size: 20px;
@@ -88,6 +102,12 @@
         padding-top: 35px;
         padding-top: 40px;
         padding-bottom: 15px;
+    }
+
+    .core-descriprion{
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 700px;
     }
 }
 

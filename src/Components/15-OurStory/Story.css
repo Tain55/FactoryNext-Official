@@ -35,3 +35,7 @@
     gap: 5%;
     margin-bottom: 30px;
 }
+
+.story-imge img{
+    border-radius: 10px;
+}

@@ -1,11 +1,20 @@
 import React from 'react';
 import BlogCard from './BlogCard';
-
+import './BlogsCompo.css';
 
 const BlogsCompo = () => {
     return (
-        <div>
-            <BlogCard/>
+        <div className='BlogsCompo-body'>
+            <div className='blogs-grid'>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+                <BlogCard/>
+            </div>
         </div>
     );
 };

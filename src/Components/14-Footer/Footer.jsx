@@ -45,8 +45,8 @@ const Footer = () => {
               <div className='details'><IoMdCall /> +8801749074100</div>
               <div className='details'><IoMdMail /> jamil@factorynext.com.bd</div>
               <div className='footer-icons'>
-                <MdFacebook />
-                <FaLinkedin />
+                <MdFacebook style={{cursor: 'pointer'}}/>
+                <FaLinkedin style={{cursor: 'pointer'}}/>
               </div>
             </div>
           </div>

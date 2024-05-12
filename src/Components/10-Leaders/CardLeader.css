@@ -1,7 +1,6 @@
 .cardL {
     width: 340px;
     height: fit-content;
-    border-radius: 10px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
@@ -18,25 +17,77 @@
   .imageLeader{
     height: 340px;
     width: 340px;
-    border-radius: 8px;
     background-color: #e8e8e8;
     border-color: #A7A5A6;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
   }
 
   .cardL1{
-    height: 20px;
-    font-size: 25px;
-    line-height: 30px;
+    height: 15px;
+    font-size: 24px;
+    line-height: 38px;
     font-weight: 700;
     text-align: center;
-    color: #393536;
+    color: white;
+    width: 100%;
   }
 
   .cardL2{
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 24px;
     font-weight: 500;
     text-align: center;
-    color: #393536;
+    color: white;
     margin-top: 0px;
+    margin-bottom: 20px;
+    height: 24px;
   }
+
+  
+  .cardL-details{
+    background:#212834;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+
+  
+@media (max-width: 576px){
+  .cardL {
+    width: 320px;
+    height: 373px;
+    padding-bottom: 20px;
+  }
+  .cardimageL{
+    height: 250px;
+    width: 320px;
+  }
+  .cardL-details{
+    height: 83px;
+    background-color: #212834;
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  .cardL1{
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: white;
+    width: 90%;
+  }
+
+  .cardL2{
+    width: 90%;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+  }
+
+
+}

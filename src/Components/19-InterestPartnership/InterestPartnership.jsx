@@ -19,7 +19,7 @@ const InterestPartnership = () => {
                 </div>
                 <textarea className='interest-form B' type="text" name="" id="" placeholder='Proposal'/>
                 <input className='interest-form C' type="text" name="" id="" placeholder='Attachment (if any)'/>
-                <button className='form-button moreOption'>Submit</button>
+                <button >Submit Now</button>
             </form>
         </div>
         </div>

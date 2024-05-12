@@ -1,5 +1,5 @@
 .interest{
-    background: #F8F8F8;
+    background: #212834;
 }
 
 .interest-body{
@@ -19,7 +19,7 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 64px;
-    color: #231f20;
+    color: white;
     margin: 0px;
     margin-top: 70px;
 }
@@ -28,7 +28,7 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 42px;
-    color: #231f20;
+    color: white;
     margin: 0px;
     margin-top: 15px;
 
@@ -39,7 +39,7 @@
     font-size: 16px;
     font-weight: 500;
     line-height: 24px;
-    color: #231f20;
+    color: white;
     margin: 0px;
     margin-left: auto;
     margin-right: auto;
@@ -61,7 +61,7 @@
     font-weight: 590px;
     color: #d4d4d4;
     line-height: 60px;
-    background: #F8F8F8;
+    background: #212834;
 }
 
 .interest-form::placeholder{
@@ -100,4 +100,22 @@
     margin-bottom: 15px;
 }
 
+.moreOption{
+    border: 1px solid rgba(255, 255, 255, 0.329);
+}
+
+.interest button{
+    margin-top: 70px;
+    color: white;
+    width: fit-content;
+    padding-left: 28px;
+    padding-right: 28px;
+    height: 56px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.062);
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
 

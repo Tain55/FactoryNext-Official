@@ -67,6 +67,8 @@
     background-color: #231F20;
     box-shadow: none;
     margin-left: auto;
+    border: 1px solid rgba(255, 255, 255, 0.324);
+    cursor: pointer;
 }
 
 .queation-heading{
@@ -74,7 +76,8 @@
     font-weight: 700;
     line-height: 64px;
     color: #231F20;
-    margin: 0px;
+    margin-bottom: 12px;
+    margin-top: 140px;
 }
 
 .question-p{
@@ -83,7 +86,7 @@
     line-height: 24px;
     color: #231F20;
     margin: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 56px;
     margin-top: 5px;
     width: 50%;
 }

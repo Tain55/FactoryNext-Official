@@ -21,7 +21,7 @@ and we will contact you within a business day.</p>
                             <input className='question-input' type="text" name="" id="" placeholder='E-mail'/>
                             <textarea  className='question-input textarea' type="text" name="" id="" placeholder='Requirements or Problems'/>
                             <input className='question-input' type="text" name="" id="" placeholder='Attachment link (if any)'/>
-                            <button className='form-button'>Submit</button>
+                            <button className='form-button'>Submit Now</button>
                         </form>
                     </div>
                     

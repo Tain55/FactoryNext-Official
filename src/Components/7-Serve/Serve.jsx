@@ -27,13 +27,10 @@ const Serve = () => {
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
-      if (screenWidth >= 1170) { // Full-screen size
+      if (screenWidth >= 1280) { // Full-screen size
         setItemsToShow(3);
         setSelectedDot(0);
-      } else if (screenWidth >= 1180) { // Full-screen size
-        setItemsToShow(3);
-        setSelectedDot(0);
-      } else if (screenWidth >= 800) { // Medium screen size
+      } else if (screenWidth >= 900) { // Medium screen size
         setItemsToShow(2);
         setSelectedDot(0);
       } else { // Small screen size

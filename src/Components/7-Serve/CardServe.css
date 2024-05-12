@@ -1,6 +1,8 @@
+
+
 .cardServe {
-    width: 340px;
-    height: 344px;
+    width: 372px;
+    height: 432px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
@@ -13,6 +15,7 @@
     display: flex;
     flex-flow: column;
     justify-content: end;
+    overflow: hidden;
   }
 
   .cardServe p {
@@ -57,4 +60,40 @@
     display: flex;
     flex-direction: column;
     justify-content: end;
+    animation: moveUp 0.5s forwards;
+
+  }
+
+  @keyframes moveUp {
+    from {
+      transform: translateY(100%);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @media (max-width: 576px){
+    .cardServe {
+      width: 320px;
+      height: 372px;
+    }
+    .cardServe p {
+      display: flex;
+      flex-flow: column;
+      justify-content: start;
+      color: white;
+      height: 50px;
+      font-size: 16px;
+      line-height: 26px;
+      font-weight: 700;
+      text-align: left;
+    }
+    .cardServe .descriptionCardServe{
+      font-weight: 500;
+      width: 90%;
+      height: fit-content;
+      font-size: 16px;
+      
+    }
   }

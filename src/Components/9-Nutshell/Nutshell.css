@@ -102,3 +102,9 @@
         margin-bottom: 70px;
     }
 }
+
+@media (max-width:400px){
+    .moreNutshelltitle{
+        margin-left: 8%;
+    }
+}

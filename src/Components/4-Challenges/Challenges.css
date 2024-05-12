@@ -3,7 +3,8 @@
   width: 100%; /* Adjust max-width as needed */
   height: fit-content;
   margin-bottom: -52px;
-  background-color: #212834;
+  /* background-color: #212834; */
+  background-color: green;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 70px;
@@ -18,8 +19,8 @@
   align-items: center; /* Add this line */
 }
 
-.modify{
-  color: white;
+.modifyHeadingChallenges{
+  color: red;
 }
 .card-group {
   display: flex; /* Adjust as needed */

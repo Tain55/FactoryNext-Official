@@ -10,7 +10,7 @@ const Core = () => {
         <div>
             <div className='core'>
             <div className='core-body'>
-                <p className='title'>Core Components</p>
+                <p className='title coreHeadingColor'>Core Components</p>
                 <p className='sub-title'>The ecosystem of smart factory tools and technologies</p>
                 <div className='core-details'>
                     <div className='core-content core-1'>

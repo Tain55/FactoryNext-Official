@@ -18,6 +18,7 @@
 .buttons{
     display: flex;
     gap: 30px;
+    cursor: pointer;
 }
 
 .cMore{
@@ -27,4 +28,12 @@
 
 .bMore{
     margin-top: 0px;
+}
+
+.black{
+    color: #231F20;
+}
+
+.blackBorder{
+    border: 1px solid #231F20;
 }

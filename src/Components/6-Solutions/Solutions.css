@@ -1,10 +1,11 @@
 .solution-1{
     width: 100%;
     margin-bottom: -52px;
+    background: #F8F8F8;
 }
 
 .solution-2{
-    width: 84%;
+    width: 90%;
     margin: auto;
 }
 
@@ -41,6 +42,7 @@
     justify-items: right;
     padding-bottom: 50px;
 }
+
 .solution-contents-2{
     display: flex;
     justify-content: center;
@@ -50,12 +52,120 @@
     margin-top: 10px;
 }
 
-@media(max-width: 1000px){
-    .modifySmart{
-        justify-content: start;
-        border-bottom: 1px solid #A7A5A6;
-    }
 
+.solution-mobile-view{
+    width: 100%;
+}
+
+.solution-mobile{
+    background: white;
+    width: 154px;
+    min-height: 191.65px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+    border-radius: 6.59px;
+}
+
+.solution-mobile-new{
+    width: 154px;
+    height: 191.65px;
+    margin-bottom: 10px;
+    padding-top: 12px;
+}
+
+.our-solution-heading{
+    height: 30px;
+    margin-top: 40px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #1570EF;
+    text-align: center;
+}
+
+
+.solution-mobile-heading{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #393536;
+    padding-left: 10px; 
+    padding-right: 10px;
+}
+.solution-mobile-text{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+    color: #393536;
+    padding-left: 10px; 
+    padding-right: 10px;
+    margin-top: -5px;
+}
+
+.solution-mobile-image{
+    width: 36px;
+    height: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.solution-mobile-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.solution-mobile-row{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    margin-bottom: 9px;
+    margin-top: 0px;
+}
+
+.new{
+    background-color: none;
+}
+
+.Solution-Design-Image{
+    width: 90%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 100px;
+}
+
+.Solution-Design-Image img{
+    width: 100%;
+}
+
+.modifySmart{
+    margin-bottom: -5px;
+}
+
+@media(min-width: 769px){
+    .solution-mobile-view{
+        display: none;
+    }
+}
+
+@media(max-width:768px){
+    .Solution-Design-Image{
+        display: none;
+    }   
+    .solution-mobile-view{
+        margin-top: -30px; 
+        padding-bottom: 50px;  
+    }
+}
+
+@media(max-width: 1000px){
+    
+    
+    .modifySmart{
+        justify-content: center;
+    }
 
     .solution-contents{
         display: flex;
@@ -103,7 +213,5 @@
         line-height: 38px;
         font-weight: 600;
         margin-top: 0;
-    }
-
-    
+    }  
 }

@@ -10,6 +10,10 @@
 .Blogs-description{
     display: flex;
     justify-content: center;
+    height: 323.47px;
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Blogs-body button{
@@ -20,4 +24,47 @@
     border: 1px solid white;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.062);
+    cursor: pointer;
+}
+
+.Blogs-body button:hover{
+    background-color: rgba(255, 255, 255, 0.18);
+}
+.blogLarge{
+    display: none;
+}
+.blogSmall{
+    display: none;
+}
+@media (min-width: 1200px){
+    .blogLarge{
+        display: block;
+    }.blogMedium{
+        display: none;
+    }
+    .blogSmall{
+        display: none;
+    }
+}
+
+@media (max-width: 992px){
+    .blogLarge{
+        display: none;
+    }.blogMedium{
+        display: block;
+    }
+    .blogSmall{
+        display: none;
+    }
+}
+
+@media (max-width: 768px){
+    .blogLarge{
+        display: none;
+    }.blogMedium{
+        display: none;
+    }
+    .blogSmall{
+        display: block;
+    }
 }
