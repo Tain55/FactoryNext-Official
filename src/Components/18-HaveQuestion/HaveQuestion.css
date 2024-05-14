@@ -42,6 +42,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #686868aa;
+    font-family: "Poppins", sans-serif;
 }
 
 .textarea{
@@ -69,6 +70,7 @@
     margin-left: auto;
     border: 1px solid rgba(255, 255, 255, 0.324);
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
 
 .queation-heading{

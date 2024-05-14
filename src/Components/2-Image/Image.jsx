@@ -10,8 +10,8 @@ const image = () => {
       </video>
       <div className="overlay"></div>
       <div className="tag-line">
-        <h2>Technology Ecosystem</h2>
-        <h3>for Smart Factories</h3>
+        <p className="tag-line1">Technology Ecosystem</p>
+        <p className="tag-line2">for Smart Factories</p>
       </div>
     </section>
   );

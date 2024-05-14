@@ -5,6 +5,7 @@
   align-items: center;
   height: 100vh;
   overflow: hidden;
+  margin-top: -8px;
 }
 
 .video {
@@ -27,12 +28,13 @@
 
 .tag-line {
   position: absolute;
-  bottom: 2.5%;
+  bottom: 1%;
   text-align: center;
   color: white;
   z-index: 1;
-  font-size: 54px;
+  font-size: 64px;
   line-height: 14px;
+  font-weight: 800;
 }
 
 .tag-line h3{
@@ -41,7 +43,8 @@
 
 @media (max-width: 992px) {
   .tag-line {
-    font-size: 18px;
-    line-height: 14px;
+    font-size: 22px;
+    line-height: 5px;
+    font-weight: 800;
   }
 }

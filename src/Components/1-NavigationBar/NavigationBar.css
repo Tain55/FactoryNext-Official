@@ -1,12 +1,20 @@
 .navbar {
-  background-color: #212834;
   display: flex;
   width: 100%;
+  height: 80px;
   align-items: center;
   justify-content: space-around;
   position: fixed; /* Changed from sticky to fixed */
   top: 0; /* Ensures it sticks to the top */
   z-index: 1000;
+}
+
+.navTrans{
+  background-color: transparent;
+}
+
+.navColor{
+  background-color: #212834;
 }
 
 .navContents{
@@ -27,7 +35,8 @@
 
 .menu-text:hover{
   font-weight: bold !important;
-  color: #1570EF !important;
+  /* color: #1570EF !important; */
+  color: #1570EF white;
 }
 
 .nav-logo{
@@ -144,6 +153,7 @@
 
   .navbar {
     justify-content: space-between;
+    height: 64px;
   }
 }
 

@@ -12,7 +12,32 @@
     margin-left: -8px;
     margin-right: -8px;
     margin-bottom: -8px;
+    margin-top: -8px;
 }
+
+
+.container {
+     /* Full viewport height */
+    overflow-y: scroll; /* Enable vertical scrolling */
+    scroll-behavior: smooth; /* Smooth scrolling behavior */
+}
+
+.section {
+     /* Each section takes up full viewport height */
+    scroll-snap-align: start; /* Snap alignment to the start of each section */
+    /* Add additional styles as needed */
+    max-height: 100vh;
+    overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    
+}
+
+.section::-webkit-scrollbar {
+    width: 0px;
+}
+
+
+
 
 
 @media (max-width: 680px){

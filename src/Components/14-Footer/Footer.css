@@ -32,6 +32,7 @@
 .footer-details-first p{
     margin-top: 0%;
     font-size: 30px;
+    font-weight: 500;
 }
 
 .footer-details-first button{
@@ -43,6 +44,7 @@
     width: 180px;
     height: 50px;
     border-radius: 4px;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer-details-second{
@@ -82,12 +84,15 @@
 
 .footer-details-second button{
     height: 42px;
-    width: 112px;
+    width: fit-content;
     color: white;
+    padding-left: 15px;
+    padding-right: 15px;
     background: rgba(255, 255, 255, 0.073);
     border: 1px solid rgba(255, 255, 255, 0.336);
     border-radius: 4px ;
     cursor: pointer;
+    font-family: "Poppins", sans-serif;
 }
 
 .footer-bottom{

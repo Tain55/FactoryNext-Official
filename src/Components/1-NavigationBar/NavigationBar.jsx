@@ -10,20 +10,31 @@ import InformationDesk from './../../Pages/InformationDeskPage/InformationDesk';
 
 const NavigationBar = () => {
   const [menu, setMenu] = useState('a');
+  const [color, setColor] = useState(false)
+
+  const changeColor = () => {
+    if(window.scrollY>=200){
+      setColor(true)
+    }else{
+      setColor(false)
+    } 
+  }
+
+  window.addEventListener('scroll', changeColor)
 
   const navLinkStyles = ({isActive}) =>{
       return{
         textDecoration: isActive ? 'none' : 'none',
         color: isActive ? '#1570EF' : 'white',
-        // fontWeight: isActive ? '700': 'normal',
-        fontWeight: 'bold',
+        fontWeight: isActive ? '700': 'normal',
+        // fontWeight: 'bold',
         fontSize: '16px',
         position: 'relative',
       }
   }
 
   return (
-    <div className='navbar'>
+    <div className={color ? 'navbar navColor':'navbar navTrans' } >
       <div className='navContents'>
         <Link to={"/"} style={{ textDecoration: 'none' }}>
           <div className='nav-logo'>

@@ -9,6 +9,8 @@ import InformationDesk from './Pages/InformationDeskPage/InformationDesk';
 import { BrowserRouter,Routes,Route,Link } from 'react-router-dom';
 import BlogsPage from './Pages/BlogsPage/BlogsPage'
 import BlogDetailPage from './Pages/BlogDetailPage/BlogDetailPage'
+import IotProducts from './Pages/IOTProducts/IotProducts'
+import OurSolutons from './Pages/OurSolutions/OurSolutons'
 
 function App() {
 
@@ -25,6 +27,8 @@ function App() {
           <Route path='/informationdesk' element={<InformationDesk/>}/>
           <Route path='/blogs' element={<BlogsPage/>} />
           <Route path= '/blogDetailPage' element={<BlogDetailPage/>}/>
+          <Route path= '/iotproducts' element={<IotProducts/>}/>
+          <Route path= '/soluitons' element={<OurSolutons/>}/>
         </Routes>
       </BrowserRouter>      
 

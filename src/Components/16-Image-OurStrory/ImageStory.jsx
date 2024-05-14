@@ -16,7 +16,7 @@ const ImageStory = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backgroundColor: 'rgba(36, 58, 96, 0.299)', // Red overlay with 50% opacity
+                    backgroundColor: '#2e2e2e50', // Red overlay with 50% opacity
                     zIndex: 1 // Ensure the overlay is above the image
                 }}></div>
 

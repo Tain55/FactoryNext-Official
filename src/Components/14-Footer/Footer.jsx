@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Footer.css';
-import logo from '../Images/logo.png';
+import logo from '../Images/FooterLogo/fn-logo-white.png';
 import { GoArrowUpRight } from "react-icons/go";
 import { IoMdCall } from "react-icons/io";
 import { IoMdMail } from "react-icons/io";

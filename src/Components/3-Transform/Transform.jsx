@@ -23,6 +23,12 @@ const transform = () => {
                     setSelectedText('C');
                     break;
                 case 'C':
+                    setSelectedText('D');
+                    break;
+                case 'D':
+                    setSelectedText('E');
+                    break;
+                case 'E':
                     setSelectedText('A');
                     break;
                 default:
@@ -69,17 +75,33 @@ const transform = () => {
     borderStyle: 'solid',
     borderLeft: 'none',
     borderRight: 'none',
-    borderBottom: 'none'}}>Manufacturing and Process monitoring</p> <div className={`white arrowA ${selectedText === 'A' ? 'active' : ''}`}></div></div>
+    borderBottom: 'none'}}>Connect and Analyze</p> <div className={`white arrowA ${selectedText === 'A' ? 'active' : ''}`}></div></div>
                         <div className='transformTotal'><p className='transformB twoT' onClick={() => setSelectedText('B')} style={{ cursor: 'pointer', color: selectedText === 'B' ? '#393536' : '#9d9d9d', borderImage: selectedText === 'B' ? 'linear-gradient(90deg, #2966F7, #FF00CF) 1':'', borderWidth: selectedText==='B'?'3px':'1px', 
     borderStyle: 'solid',
     borderLeft: 'none',
     borderRight: 'none',
-    borderBottom: 'none'}}>Environmental Monitoring and Compliance</p><div className={`white arrowB ${selectedText === 'B' ? 'active' : ''}`}></div></div>
-                        <div className='transformTotal'> <p className='transformB threeT' onClick={() => setSelectedText('C')} style={{ cursor: 'pointer', color: selectedText === 'C' ? '#393536' : '#9d9d9d', borderImage: selectedText === 'C' ? 'linear-gradient(90deg, #2966F7, #FF00CF) 1':'', borderWidth: selectedText==='C'?'3px':'1px',  
+    borderBottom: 'none'}}>Uncover hidden loss & improve efficiency</p><div className={`white arrowB ${selectedText === 'B' ? 'active' : ''}`}></div></div>
+
+<div className='transformTotal'><p className='transformB twoT1' onClick={() => setSelectedText('C')} style={{ cursor: 'pointer', color: selectedText === 'C' ? '#393536' : '#9d9d9d', borderImage: selectedText === 'C' ? 'linear-gradient(90deg, #2966F7, #FF00CF) 1':'', borderWidth: selectedText==='C'?'3px':'1px', 
     borderStyle: 'solid',
     borderLeft: 'none',
     borderRight: 'none',
-    borderBottom: 'none' }}>Smart Energy and Utility Management</p> <div className={`white arrowC ${selectedText === 'C' ? 'active' : ''}`}></div></div>
+    borderBottom: 'none'}}>Optimize energy & utility usage</p><div className={`white arrowB ${selectedText === 'C' ? 'active' : ''}`}></div></div>
+
+<div className='transformTotal'><p className='transformB twoT2' onClick={() => setSelectedText('D')} style={{ cursor: 'pointer', color: selectedText === 'D' ? '#393536' : '#9d9d9d', borderImage: selectedText === 'D' ? 'linear-gradient(90deg, #2966F7, #FF00CF) 1':'', borderWidth: selectedText==='D'?'3px':'1px', 
+    borderStyle: 'solid',
+    borderLeft: 'none',
+    borderRight: 'none',
+    borderBottom: 'none'}}>Automate environmental management</p><div className={`white arrowB ${selectedText === 'D' ? 'active' : ''}`}></div></div>
+
+                        <div className='transformTotal'> <p className='transformB threeT' onClick={() => setSelectedText('E')} style={{ cursor: 'pointer', color: selectedText === 'E' ? '#393536' : '#9d9d9d', borderImage: selectedText === 'E' ? 'linear-gradient(90deg, #2966F7, #FF00CF) 1':'', borderWidth: selectedText==='E'?'3px':'1px',  
+    borderStyle: 'solid',
+    borderLeft: 'none',
+    borderRight: 'none',
+    borderBottom: 'none' }}>Better compliance and safety</p> <div className={`white arrowC ${selectedText === 'E' ? 'active' : ''}`}></div></div>
+    
+
+    
                     </div>
                 </div>
             </div>
@@ -91,7 +113,13 @@ const transform = () => {
                 <div className='transform-single-icon' onClick={() => setSelectedText('B')} style={{borderBottom: selectedText==='B'? '4px solid #1570EF':'none'}}>
                     <img src={renderLogoB()} alt="" />
                 </div>
-                <div className='transform-single-icon' onClick={() => setSelectedText('C')} style={{borderBottom: selectedText==='C'? '4px solid #1570EF':'none'}}>
+                <div className='transform-single-icon' onClick={() => setSelectedText('C')} style={{borderBottom: selectedText==='B'? '4px solid #1570EF':'none'}}>
+                    <img src={renderLogoB()} alt="" />
+                </div>
+                <div className='transform-single-icon' onClick={() => setSelectedText('D')} style={{borderBottom: selectedText==='B'? '4px solid #1570EF':'none'}}>
+                    <img src={renderLogoB()} alt="" />
+                </div>
+                <div className='transform-single-icon' onClick={() => setSelectedText('E')} style={{borderBottom: selectedText==='C'? '4px solid #1570EF':'none'}}>
                     <img src={renderLogoC()} alt="" />
                 </div>
             </div>
@@ -99,18 +127,28 @@ const transform = () => {
             <div className='transform-body-second'>
                 <div className='transform'>
                     <div style={{ display: selectedText === 'A' ? 'block' : 'none', }}>
-                        <p className='trans-2-heading'>Manufacturing</p>
-                        <p className='trans-2-peragraph'>Discover a new era of manufacturing with Factory Next. Our cutting-edge solutions optimize production workflows, increase productivity, and elevate product quality. From automated assembly lines to real-time monitoring systems, we provide the tools you need to transform your factory into a smart, efficient operation. Join us in reshaping the future of manufacturing with Factory Next. We provide the tools you need to transform your factory into a smart.</p>
+                        <p className='trans-2-heading'>Connect and Analyze </p>
+                        <p className='trans-2-peragraph'>Connect machinery, analyze data for instant insights, enabling informed decisions and operational agility with Factory Next's IoT Platform</p>
                         <div className='trans-image'><img src={image1} alt="" /></div>
                     </div>
                     <div style={{ display: selectedText === 'B' ? 'block' : 'none'}}>
-                        <p className='trans-2-heading'>Environmental Monitoring</p>
-                        <p className='trans-2-peragraph'>Discover a new era of manufacturing with Factory Next. Our cutting-edge solutions optimize production workflows, increase productivity, and elevate product quality. From automated assembly lines to real-time monitoring systems, we provide the tools you need to transform your factory into a smart, efficient operation. Join us in reshaping the future of manufacturing with Factory Next. We provide the tools you need to transform your factory into a smart.</p>
+                        <p className='trans-2-heading'>Uncover hidden loss & improve efficiency</p>
+                        <p className='trans-2-peragraph'>Identify inefficiencies and bottlenecks, mitigate losses, and maximize operational efficiency with our monitoring platform and AI algorithms. </p>
                         <div className='trans-image'><img src={image1} alt="" /></div>
                     </div>
                     <div style={{ display: selectedText === 'C' ? 'block' : 'none'}}>
-                        <p className='trans-2-heading'>Smart Energy</p>
-                        <p className='trans-2-peragraph'>Discover a new era of manufacturing with Factory Next. Our cutting-edge solutions optimize production workflows, increase productivity, and elevate product quality. From automated assembly lines to real-time monitoring systems, we provide the tools you need to transform your factory into a smart, efficient operation. Join us in reshaping the future of manufacturing with Factory Next. We provide the tools you need to transform your factory into a smart.</p>
+                        <p className='trans-2-heading'>Optimize energy & utility usage</p>
+                        <p className='trans-2-peragraph'>Enhance sustainability and reduce costs by optimizing energy and utility usage with our smart factory tools and predictive analytics.</p>
+                        <div className='trans-image'><img src={image1} alt="" /></div>
+                    </div>
+                    <div style={{ display: selectedText === 'D' ? 'block' : 'none'}}>
+                        <p className='trans-2-heading'>Automate environmental management</p>
+                        <p className='trans-2-peragraph'>Streamline environmental management processes, ensure regulatory compliance, and maintain a safe workplace with our smart  environment management solution.</p>
+                        <div className='trans-image'><img src={image1} alt="" /></div>
+                    </div>
+                    <div style={{ display: selectedText === 'E' ? 'block' : 'none'}}>
+                        <p className='trans-2-heading'>Better compliance and safety</p>
+                        <p className='trans-2-peragraph'>Elevate safety standards, ensure regulatory compliance, and foster a secure workplace environment with our  comprehensive compliance and safety solutions</p>
                         <div className='trans-image'><img src={image1} alt="" /></div>
                     </div>
                 </div>

@@ -7,7 +7,7 @@
 
 .challenges2contents{
     width: 90%;
-    min-height: 574px;
+    min-height: 444px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -28,7 +28,7 @@
     width: 40%;
     /* padding-top: 70px; */
     padding-top: 20px;
-    min-height: 547px;
+    min-height: 444px;
     
     max-width: 464px;
 }
@@ -99,7 +99,6 @@
     line-height: 36px;
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 21px;
     margin-bottom: 21px;
     min-height: 36px;
     max-width: 400px;
@@ -136,6 +135,8 @@
 
 .cha-leftText{
     width: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .right-img{

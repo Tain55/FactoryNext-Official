@@ -7,6 +7,15 @@
     margin-bottom: 50px;
     text-align: center;
 }
+
+.footprinttitle{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 72px;
+    color: #231f20;
+    text-align: center;
+    padding-top: 100px;
+}
 .footbody-1{
     width: 100%;
     padding-bottom: 80px;
@@ -19,27 +28,32 @@
 }
 .foot-nuber{
     display: flex;
-    justify-content:space-between;
+    justify-content:center;
     margin-left: auto;margin-right: auto;
 }
 .foot-number-box{
-    padding-right: 40px;
+    padding-right: 25px;
+    padding-left: 25px;
     border-right: 1px solid #A7A5A6;
-    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
 }
 .foot-number-box .number{
     font-size: 60px;
     font-weight: 700;
     color: #1570ef;
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 0px;
 }
 .foot-number-box .text{
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
     margin-top: 0px;
     margin-bottom: 0px;
     color: #231F20;
+    text-align: center;
 }
 
 .icon-down{

@@ -2,6 +2,7 @@
 .challenges {
     width: 100%; /* Adjust max-width as needed */
     height: fit-content;
+    padding-bottom: 50px;
     margin-bottom: -52px;
     background-color: #161616;
     margin-left: auto;

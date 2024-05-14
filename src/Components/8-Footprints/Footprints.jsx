@@ -24,14 +24,14 @@ const Footprints = () => {
     };
 
     const onExitViewport = () => {
-        setCounted(false);
+        setCounted(true);
     };
 
     return (
         
             <div className='footbody-1'>
                 <div className='footbody-2'>
-                    <p className='title more'>Successful Footprints</p>
+                    <p className='footprinttitle'>Successful Footprints</p>
                 <ScrollTrigger onEnter={onEnterViewport} onExit={onExitViewport}>
                     <div className='foot-nuber'>
                         <div className='foot-number-box'>
