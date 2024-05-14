@@ -1,18 +1,20 @@
 .cardL {
-    width: 340px;
-    height: fit-content;
-    border-radius: 10px;
+    width: 336px;
+    height: 337px;
+    border-radius: 41px;
     padding-bottom: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-image:  linear-gradient(90deg, #2966F7, #FF00CF) ;
+    border: 5px solid;
   }
 
 
 
   .cardimageL{
-    height: 340px;
-    width: 340px;
+    height: 50px;
+    width: 50px;
   }
 
   .imageLeader{

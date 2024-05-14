@@ -11,8 +11,8 @@ import image3 from '../Images/Solution-mobile-icons/sol-icon-3.png'
 import image4 from '../Images/Solution-mobile-icons/sol-icon-4.png'
 import image5 from '../Images/Solution-mobile-icons/sol-icon-5.png'
 
+import solutionImage from '../Images/solution images/Our_Solutions.png'
 // import solutionImage from '../Images/solution images/Objects.png'
-import solutionImage from '../Images/solution images/Objects.png'
 
 
 const Solutions = () => {
@@ -60,7 +60,7 @@ const Solutions = () => {
                     <div className='Solution-Image'>
                        <img src={solutionImage} alt="" />
                     </div>
-                    <div className='Solution-text1'>
+                    {/* <div className='Solution-text1'>
                         <p className='Solution-heading'>Machine and Process Monitoring</p>
                         <p className='Solution-details'>Lorem ipsum dolor sit amet consectetur. Id enim tristique pretium aliquet donec lorem amet. </p>
                     </div>
@@ -79,7 +79,7 @@ const Solutions = () => {
                     <div className='Solution-text5'>
                         <p className='Solution-heading'>IR Transformation Design & Consultancy</p>
                         <p className='Solution-details'>Lorem ipsum dolor sit amet consectetur. Id enim tristique pretium aliquet donec lorem amet. </p>
-                    </div>
+                    </div> */}
                 </div>
 
                 <div className='solution-mobile-view'>

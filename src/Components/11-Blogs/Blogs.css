@@ -16,7 +16,7 @@
     margin-right: auto;
 }
 
-.Blogs-body button{
+/* .Blogs-body button{
     margin-top: 70px;
     color: white;
     width: 144px;
@@ -24,6 +24,14 @@
     border: 1px solid white;
     border-radius: 4px;
     background-color: rgba(255, 255, 255, 0.062);
+    cursor: pointer;
+} */
+
+.blogButton{
+    font-size: 19px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.977);
+    margin-top: 100px;
     cursor: pointer;
 }
 

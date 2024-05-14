@@ -14,12 +14,11 @@
     padding-top: 90px;
     display: flex;
     flex-direction: column;
-    justify-content: ;
 }
 
 .footer-logo{
-    width: 300px;
-    margin-left: -13px;
+    width: 150px;
+    margin-left: -3px;
     margin-top: -13px;
 }
 .footer-details{

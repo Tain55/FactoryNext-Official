@@ -56,6 +56,14 @@
     padding-left: 100px;
 }
 
+.Social-Button{
+    font-size: 19px;
+    font-weight: 500;
+    color: #1570ef;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
 @media (min-width: 1001px){
     .social-deign-2{
         display: none;

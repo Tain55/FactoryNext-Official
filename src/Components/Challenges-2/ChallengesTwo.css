@@ -7,7 +7,7 @@
 
 .challenges2contents{
     width: 90%;
-    min-height: 444px;
+    min-height: 425px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -28,7 +28,7 @@
     width: 40%;
     /* padding-top: 70px; */
     padding-top: 20px;
-    min-height: 444px;
+    min-height: 425px;
     
     max-width: 464px;
 }
@@ -175,17 +175,18 @@
 
 .cha-image-left{  
     /* changed */
-    width: 294.17px;
-    height: 242.05px;
+    height: 200.05px;
     margin-left: 32px;
     margin-right: 32px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
 }
 
 .cha-image-left img{
-    width: 100%;
+    width: fit-content;
     height: 100%;
+    object-fit:contain;
 }
 .challengesMoreTitle{
     text-align: center;

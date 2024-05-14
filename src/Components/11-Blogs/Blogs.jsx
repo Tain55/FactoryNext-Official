@@ -26,7 +26,12 @@ const Blogs = () => {
                 <BlogComponent/>
             </div>
             </div>
-            <Link to={'/blogs'}><button>Explore All</button></Link>
+            <Link to={'/blogs'} style={{textDecoration: 'none', color: '#1570ef'}}>
+                <div className='blogButton'>
+                Load More
+                </div>
+                {/* <button>Explore All</button> */}
+                </Link>
         </div>
     );
 };

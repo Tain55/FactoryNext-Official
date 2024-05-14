@@ -89,17 +89,18 @@ const Footprints = () => {
                         <div className='logo-box'><img src={image2} alt="" /></div>
                         <div className='logo-box'><img src={image3} alt="" /></div>
                         <div className='logo-box'><img src={image4} alt="" /></div>
-                        <div className='logo-box'><img src={image5} alt="" /></div>
+                        {/* <div className='logo-box'><img src={image5} alt="" /></div>
                         <div className='logo-box'><img src={image6} alt="" /></div>
                         <div className='logo-box'><img src={image7} alt="" /></div>
                         <div className='logo-box'><img src={image8} alt="" /></div>
                         <div className='logo-box'><img src={image9} alt="" /></div>
                         <div className='logo-box footLogo'><img src={image10} alt="" /></div>
                         <div className='logo-box footLogo'><img src={image11} alt="" /></div>
-                        <div className='logo-box footLogo'><img src={image12} alt="" /></div>
+                        <div className='logo-box footLogo'><img src={image12} alt="" /></div> */}
                     </div>
                     <div className='button-width'>
-                        <button>View More <IoIosArrowDown className='icon-down'/></button>
+                        Load More
+                        {/* <button>View More <IoIosArrowDown className='icon-down'/></button> */}
                     </div>
                 </div>
             </div>
