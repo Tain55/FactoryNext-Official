@@ -11,14 +11,14 @@ const Blogs = () => {
             <div className='blogLarge'>
             <div className='Blogs-description '>
                 <BlogComponent/>
-                <BlogComponent/>
-                <BlogComponent/>
+                {/* <BlogComponent/>
+                <BlogComponent/> */}
             </div>
             </div>
             <div className='blogMedium'>
             <div className='Blogs-description '>
                 <BlogComponent/>
-                <BlogComponent/>
+                {/* <BlogComponent/> */}
             </div>
             </div>
             <div className='blogSmall'>
@@ -26,9 +26,9 @@ const Blogs = () => {
                 <BlogComponent/>
             </div>
             </div>
-            <Link to={'/blogs'} style={{textDecoration: 'none', color: '#1570ef'}}>
+            <Link to={'/blogsX'} style={{textDecoration: 'none', color: '#1570ef'}}>
                 <div className='blogButton'>
-                Load More
+                Explore All
                 </div>
                 {/* <button>Explore All</button> */}
                 </Link>

@@ -1,9 +1,9 @@
 .cardL {
   width: 336px;
-  height: 337px;
+  height: 360px;
   border: double 4px transparent;
   border-radius: 41px;
-  background-image: linear-gradient(white, white), radial-gradient(circle at top, #2967f7, #ff00d0);
+  background-image: linear-gradient(white, white), radial-gradient(circle at top, #2A67F8, #2A67F8, #FF01D0);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   display: flex;
@@ -15,8 +15,9 @@
 .background-card{
   width: 100%;
   height: 100%;
-  border-radius: 41px;
-  background-color: #E9F0F9;
+  border-radius: 37px;
+  /* background-color: #161616; */
+  background: white;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,9 +25,19 @@
 }
 
 
+.logosLeader{
+  display: flex;
+  gap: 16px;
+  margin-top: 12px;
+}
 
+.logosLeader img:hover{
+  cursor: pointer;
+}
 
-
+.headingAndIcon{
+  display: flex;
+}
 
   .cardimageL{
     height: 160px;
@@ -35,7 +46,7 @@
     margin-right: auto;
     border-radius: 50%;
     /* border: 5px solid #1570efb5; */
-    border: 8px solid #1570EF;
+    border: 6px solid #1570EF;
 
   }
 
@@ -62,9 +73,9 @@
     font-weight: 700;
     text-align: center;
     color: #212834;
+    /* color: white; */
     width: 100%;
   }
-
   .cardL2{
     height: 24px;
     font-size: 16px;
@@ -72,6 +83,7 @@
     font-weight: 500;
     text-align: center;
     color: #212834;
+    /* color: white; */
     margin-top: 0px;
     margin-bottom: 0px;
     height: 24px;
@@ -84,33 +96,58 @@
     border-bottom-right-radius: 8px;
   }
 
+  .cardLtransparent-gap{
+    background: #161616;
+    background: white;
+    width: 129px;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -42px;
+}
+
+.cardLCircle1{
+  width: 16px;
+  height: 16px;
+  /* aspect-ratio: 1/1; */
+  border-radius: 50%;
+  background-color: #2A67F8;
+  margin-left: -5px;
+}
+.cardLCircle2{
+  width: 16px;
+  height: 16px;
+  /* aspect-ratio: 1/1; */
+  border-radius: 50%;
+  background-color: #2A67F8;
+  margin-right: -5px;
+}
   
-@media (max-width: 576px){
+@media (max-width: 680px){
   .cardL {
-    width: 320px;
-    height: 373px;
-    padding-bottom: 20px;
+    width: 280px;
+    height: 300px;
   }
   .cardimageL{
-    height: 250px;
-    width: 320px;
+    height: 150px;
+    width: 150px;
   }
-  .cardL-details{
+  /* .cardL-details{
     height: 83px;
     background-color: #212834;
     margin-top: 38px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+  } */
 
   
   .cardL1{
     font-size: 20px;
     line-height: 30px;
     font-weight: 700;
-    color: white;
-    width: 90%;
+    color: #212834;
+    width: 100%;
   }
 
   .cardL2{
@@ -119,8 +156,29 @@
     line-height: 21px;
     font-weight: 500;
     text-align: center;
-    color: white;
+    color: #212834;
+    margin-left: auto;
+    margin-right: auto;
   }
 
+  .cardLtransparent-gap{
+    margin-top: -21px;
+  }
+  .cardLCircle1{
+    width: 14px;
+  }
+  .cardLCircle2{
+    width: 14px;
+    height: 14px;
+  }
+  /* .cardL1{
+    color: white;
+  }
+  .cardL2{
+    color: white;
+  } */
+  .cardLtransparent-gap{
+    width: 100px;
+  }
 
 }

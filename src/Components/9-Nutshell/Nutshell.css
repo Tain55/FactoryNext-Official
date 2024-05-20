@@ -43,7 +43,7 @@
 
 
 .nutshell-details img{
-    height: 150px;
+    height: 120px;
 }
 
 .nutshel-descriprion{
@@ -61,6 +61,9 @@
     width: 100%;
     object-fit: contain;
 }
+.moreNutshelltitle{
+    padding-bottom: 20px;
+}
 
 @media (max-width: 1000px){
     .nutshell-details{
@@ -70,7 +73,7 @@
         flex-direction: column;
         margin-left:auto;
         margin-right: auto;
-        padding-bottom: 100px;
+        padding-bottom: 70px;
     }
     .nutshell-content{
         width: 90%;
@@ -90,21 +93,27 @@
         height: 20%;
         margin-left: auto;
         margin-right: auto;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
     }
     .NutModify img{
         height: 100%;
         width: 100%;
     }
+
+    .nutshel-descriprion{
+        font-size: 14px;
+    }
+
     .nutshell-2{
         border: none;
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin-top: 40px;
+        margin-bottom: 40px;
     }
+
 }
 
 @media (max-width:400px){
     .moreNutshelltitle{
-        margin-left: 8%;
+        padding-bottom: 40px;
     }
 }

@@ -199,6 +199,12 @@
 }
 
 @media (max-width: 950px){
+
+    .cha-text{}
+    .challengesMoreTitle{
+        padding-top: 80px;
+        line-height: 30px;
+    }
     .challenges2contents{
         display: none;
     }
@@ -217,11 +223,11 @@
     .cha-heading{
         font-weight: 500;
         font-size: 18px;
-        line-height: 36px;
+        line-height: 28px;
         margin-left: 32px;
         margin-right: 32px;
         margin-top: 10px;
-        margin-bottom: 0px;
+        margin-bottom: 5px;
         min-height: 40px;
         max-width: 400px;
     }
@@ -247,5 +253,11 @@
     
     .challenges2-bottom{
         padding-top: 50px;
+    }
+    .challenges2body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }

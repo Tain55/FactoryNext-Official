@@ -5,11 +5,11 @@ const CardServe = ({ title, image, description }) => {
 
   return (
       <div className="cardServe" style={{backgroundImage: `url(${ image })`}}>
-      <div className='background-shadow'>
-        <p>{title}</p>
-        <p className='descriptionCardServe'>{description}</p>
-    </div>
-    </div>
+        <div className='background-shadow'>
+          <p>{title}</p>
+          <p className='descriptionCardServe'>{description}</p>
+        </div>
+      </div>
   );
 };
 

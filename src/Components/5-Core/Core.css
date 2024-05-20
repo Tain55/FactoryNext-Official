@@ -15,7 +15,7 @@
     font-weight: 500;
     line-height: 42px;
     text-align: center;
-    margin-top: -60px;
+    margin-top: -40px;
     margin-bottom: 70px;
 }
 
@@ -69,12 +69,15 @@
 }
 
 @media (max-width: 1000px){
+    .core{
+        padding-bottom: 60px;
+    }
     .sub-title{
         font-size: 14px;
         font-weight: 500;
         line-height: 24px;
         text-align: center;
-        margin-top: -20px;
+        margin-top: -5px;
         margin-bottom: 50px;
     }
     .core-content .image{
@@ -82,7 +85,9 @@
         height: 160px;
     }
     .sub-title{
-        font-size: 20px;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
     }
     .core-details{
         width: 87%;

@@ -1,5 +1,5 @@
 import './Partnership.css'
-import img1 from '../../Components/Images/Partnership logos/image 67.png'
+import img1 from '../../Components/Images/Partnership logos/arthor.png'
 import img2 from '../../Components/Images/Partnership logos/image 68.png'
 import img3 from '../../Components/Images/Partnership logos/image 69.png'
 import img4 from '../../Components/Images/Partnership logos/image 70.png'
@@ -19,10 +19,10 @@ import React from 'react';
 const Partnership = () => {
     return (
         <div className='partner-body'>
-            <p className='title modifyTitle'>Partnership and Collaborations</p>
+            <p className='title modifyTitle'>Partnerships and Collaborations</p>
             <div className='partner-logo-box'>
                 <div className='partner-logos'>
-                    <div className='logo1 logosmall1'><img src={img1} alt="" /></div>
+                    <div className='logo1 logosmall1'><img className='logoHeight' src={img1} alt="" /></div>
                     <div className='logo1 logosmall1'><img src={img2} alt="" /></div>
                     <div className='logo1 logosmall2'><img src={img3} alt="" /></div>
                     <div className='logo2 logosmall1'><img src={img4} alt="" /></div>

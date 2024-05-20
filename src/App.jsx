@@ -11,6 +11,7 @@ import BlogsPage from './Pages/BlogsPage/BlogsPage'
 import BlogDetailPage from './Pages/BlogDetailPage/BlogDetailPage'
 import IotProducts from './Pages/IOTProducts/IotProducts'
 import OurSolutons from './Pages/OurSolutions/OurSolutons'
+import ConstructionPage from './Pages/ConstructionPage/ConstructionPage'
 
 function App() {
 
@@ -28,7 +29,8 @@ function App() {
           <Route path='/blogs' element={<BlogsPage/>} />
           <Route path= '/blogDetailPage' element={<BlogDetailPage/>}/>
           <Route path= '/iotproducts' element={<IotProducts/>}/>
-          <Route path= '/soluitons' element={<OurSolutons/>}/>
+          {/* <Route path= '/soluitons' element={<OurSolutons/>}/> */}
+          <Route path= "*" element={<ConstructionPage/>}/>
         </Routes>
       </BrowserRouter>      
 

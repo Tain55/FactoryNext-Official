@@ -127,3 +127,76 @@
     font-family: "Poppins", sans-serif;
 }
 
+@media (max-width: 1055px){
+    .a{
+        width: 100%;
+    }
+    .b{
+        width: 100%;
+    }
+    .c{
+        width: 100%;
+    }
+
+    .interest-1{
+        flex-direction: column;
+    }
+    .interest-2{
+        flex-direction: column;
+    }
+    .A{
+        width: 100%;
+    }
+    .B{
+        width: 100%;
+    }
+    .C{
+        width: 100%;
+    }
+}
+
+@media (max-width: 746px) {
+    .interest-form{
+        font-size: 14px;
+    }
+    .a{
+        width: 100%;
+        font-weight: 800;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .b{
+        width: 100%;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .c{
+        width: 100%;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .interest-1{
+        flex-direction: column;
+    }
+    .interest-2{
+        flex-direction: column;
+    }
+    .A{
+        width: 100%;
+    }
+    .B{
+        width: 100%;
+    }
+    .C{
+        width: 100%;
+    }
+    .interest button{
+        height: 42px;
+        font-size: 12px;
+        margin-top: 38px;
+    }
+    
+}

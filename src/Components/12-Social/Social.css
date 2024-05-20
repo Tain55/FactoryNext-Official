@@ -2,13 +2,12 @@
     width: 100%;
     height: fit-content;
     display: flex;
-    margin-top: 100px;
     margin-bottom: 100px;
 }
 
 .social-left{
     width: 50%;
-    margin-top: auto;
+    margin-top: 50px;
     margin-bottom: auto;
 }
 .social-left-content{
@@ -42,13 +41,16 @@
 
 .social-right{
     width: 50%;
-    margin-top: auto;
+    margin-top: 150px;
     margin-bottom: auto;
 }
 
 .social-right img{
     /* height: 50%; */
     width: 70%;
+    height: 100%;
+    max-height: 320px;
+    object-fit: contain;
 }
 
 
@@ -58,10 +60,13 @@
 
 .Social-Button{
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 700;
     color: #1570ef;
     margin-top: 50px;
     cursor: pointer;
+}
+
+.social-right{
 }
 
 @media (min-width: 1001px){
@@ -94,9 +99,10 @@
         max-width: 500px;
     }
     .social_description_small{
-        font-size: 16px;
+        font-size: 14px;
         line-height: 24px;
         font-weight: 400px;
+        color: #231F20;
     }
     .social-deign-2 button{
         border: none;
@@ -112,5 +118,15 @@
     }
     .social-body{
         display: none;
+    }
+    .Social-Button{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 768px){
+    .Social-Button{
+        font-size: 15px;
     }
 }

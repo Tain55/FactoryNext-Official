@@ -1,7 +1,7 @@
 .Blogs-body{
     width: 100%;
     height: fit-content;
-    background-color: #161616;
+    background-color: #212834;
     color: white;
     padding-bottom: 100px;
     text-align: center;
@@ -29,9 +29,9 @@
 
 .blogButton{
     font-size: 19px;
-    font-weight: 500;
+    font-weight: 700;
     color: rgba(255, 255, 255, 0.977);
-    margin-top: 100px;
+    margin-top: 75px;
     cursor: pointer;
 }
 
@@ -74,5 +74,16 @@
     }
     .blogSmall{
         display: block;
+    }
+    .blogButton{
+        padding-top: 25px;
+        font-size: 15px;
+    }
+    .blogButton{
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    .Blogs-body{
+        padding-bottom: 50px;
     }
 }

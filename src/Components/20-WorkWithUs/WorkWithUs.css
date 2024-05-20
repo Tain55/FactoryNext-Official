@@ -37,3 +37,40 @@
 .blackBorder{
     border: 1px solid #231F20;
 }
+
+@media (max-width: 1055px){
+    .work-body{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 746px){
+    .btnMore{
+        width: 169px;
+    }
+    .btncolor{
+        width: 134px;
+    }
+    .buttons{
+        gap: 16px;
+    }
+    .b{
+        margin-top: 8px;
+    }
+    .c{
+        margin-top: 8px;
+    }
+
+    .cMore{
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    .work-body{
+        margin-top: 0px;
+    }
+}
+

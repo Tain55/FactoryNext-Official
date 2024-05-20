@@ -1,5 +1,6 @@
 .partner-body{
-    height: fit-content;
+    height: 100vh;
+    max-height: 710px;
     background: #F8F8F8;
     padding-bottom: 100px;
 }
@@ -62,6 +63,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.logoHeight{
+    max-height: 68px;
 }
 
 
@@ -131,6 +136,11 @@
 }
 
 @media (max-width: 1050px){
+    .partner-body{
+        height: 470px;
+        background: #F8F8F8;
+        padding-bottom: 100px;
+    }
     .partner-logos{
         display: grid;
         grid-template-columns: auto auto auto auto;
@@ -196,6 +206,11 @@
 }
 
 @media (max-width: 900px){
+    .partner-body{
+        max-height: 500px;
+        background: #F8F8F8;
+        padding-bottom: 100px;
+    }
     .partner-logos{
         display: grid;
         grid-template-columns: auto auto auto;
@@ -254,7 +269,9 @@
 
 
 @media (max-width: 500px){
-    
+    .partner-body{
+        max-height: 350px;
+    }
 
     .partner-logos{
         display: grid;
@@ -309,5 +326,7 @@
     .partner-body{
         padding-bottom: 70px;
     }
-
+    .modifyTitle{
+        line-height: 30px;
+    }
 }

@@ -5,19 +5,29 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import CardS from './CardServe';
 import image1 from '../Images/serve/close-up-bunch-different-colored-fabric-generative-ai 1.png';
 import image2 from '../Images/serve/silhouette-high-voltage-electric-tower-sunset-time-sky-sunset-time-background 1.png';
-import image3 from '../Images/serve/technician-working-electronics-factory-generative-ai 1.png';
+import imag1 from '../Images/serve/new/RMG-&-Textile.png';
+import imag2 from '../Images/serve/new/Power-Gen.-Distribution.png';
+import imag3 from '../Images/serve/new/Electronics-Manufacturing.png';
+import imag4 from '../Images/serve/new/Chemical-&-Pharmaceuticals.png';
+import imag5 from '../Images/serve/new/Cold-storage-&-Warehouse.png';
+import imag6 from '../Images/serve/new/Smart-Farming.png';
+import imag7 from '../Images/serve/new/Smart-Fisheries.png';
+import imag8 from '../Images/serve/new/Scientific-Research.png';
+import imag9 from '../Images/serve/new/Agro-&-Food-Processing.png';
+import imag10 from '../Images/serve/new/Leather-Processing.png';
 
 const Serve = () => {
   const cards = [
-    { title: 'Environment Management System (EMS)', image: image1, description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Power Gen. & Distribution', image: image2 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Electronics Manufacturing', image: image3 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Environment Management System (EMS)2', image: image1, description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Power Gen. & Distribution2', image: image2 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Electronics Manufacturing2', image: image3 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Environment Management System (EMS)3', image: image1 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Power Gen. & Distribution3', image: image2 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
-    { title: 'Electronics Manufacturing3', image: image3 , description: "Lorem ipsum dolor sit amet consectetur. Et bibendum leo amet lacinia. Id sed nisl praesent vivamus mauris turpis libero. Nisi nulla ullamcorper aliquam fringilla facilisis. Nam amet ut pretium vitae velit leo nisl."},
+    { title: 'RMG & Textile', image: imag1, description: "Optimizing production and reducing waste with IoT for real-time machine and environmental monitoring, alongside AI based solutions."},
+    { title: 'Power Gen. & Distribution', image: imag2 , description: "Enhancing grid reliability and energy efficiency through IoT-enabled energy monitoring, machine monitoring and predictive maintenance."},
+    { title: 'Electronics Manufacturing', image: imag3 , description: "Leveraging smart controllers, machine monitoring, and AI analytics to optimize production lines and quality control."},
+    { title: 'Chemical & Pharmaceuticals ', image: imag4, description: "IoT solutions ensure precise process and environmental control, enhancing safety and compliance in sensitive operations."},
+    { title: 'Cold-storage & Warehouse', image: imag5 , description: "IoT devices for temperature and humidity control, improving storage conditions and reducing energy usage."},
+    { title: 'Smart Farming', image: imag6 , description: "Data-driven insights and automated controls boost crop yields and resource management through environmental and machine monitoring."},
+    { title: 'Smart Fisheries', image: imag7 , description: "Implementing water quality and environmental monitoring to enhance fish health and optimize resource usage."},
+    { title: 'Scientific Research', image: imag8 , description: "Facilitating cutting-edge research with tailored IoT solutions for environmental data collection and experiment management."},
+    { title: 'Agro & Food Processing', image: imag9 , description: "Streamlining operations with automated process controls, environmental monitoring, and energy management for safety and efficiency."},
+    { title: 'Leather Processing', image: imag10 , description: "IoT solutions to enhance tanning processes with reduced chemical usage and improved environmental and machine monitoring."},
   ];
 
   const [itemsToShow, setItemsToShow] = useState(1);

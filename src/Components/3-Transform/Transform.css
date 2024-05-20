@@ -16,6 +16,7 @@
 
 
 
+
 .transform{
     width: 85%;
     height: fit-content;
@@ -91,12 +92,13 @@
     color: #231F20;
     margin-top: 0px;
     margin-bottom: 16px;
-    /* animation: slideFromLeft .3s ease forwards; */
+    animation: slideFromLeft .3s ease forwards;
 }
 
 .trans-2-peragraph{
+
     font-weight: 400;
-    /* animation: slideFromLeft .5s ease forwards; */
+    animation: slideFromLeft .5s ease forwards;
     font-size: 16px;
     line-height: 28px;
     padding-bottom: 16px;
@@ -105,15 +107,15 @@
 
 .trans-image{
     width: 100%;
-    max-width: 608px;
-    max-height: 406px;
-    /* animation: slideFromLeft .7s ease forwards; */
+    /* max-width: 608px; */
+    /* max-height: 406px; */
 }
 
 .trans-image img{
     width: 100%;
     object-fit: cover;
     border-radius: 8px;
+    animation:  arrowSlideFromRight 1s ease forwards;
 }
 
 
@@ -132,34 +134,42 @@
 }
 
 
+.trans-text{
+    min-height: 150px;
+}
+
 /* ///////////////////// */
 
 @keyframes arrowSlideFromRight{
     from {
-        transform: translateX(-850%);
+        transform: translateX(7%);
+        /* height: 0%; */
       }
       to {
         transform: translateX(0);
+        /* height: auto; */
       }
 }
 
 @keyframes arrowSlideFromTop{
     from {
-        transform: translateY(-60%);
+        width: 0;
       }
       to {
-        transform: translateX(0);
+        width: auto; /* or your desired width */
       }
 }
 
 @keyframes slideFromLeft {
     from {
-      transform: translateX(50%);
-    }
-    to {
-      transform: translateX(0);
-    }
+        font-size: 0;
+      }
+      to {
+        font-size: auto; /* or your desired width */
+      }
   }
+
+
 
 
 .transform-moileview-icons{
@@ -174,16 +184,22 @@
 }
 
 .transform-single-icon{
-    width: 106.5px;
-    height: 52px;
+    width: 64px;
+    height: 28px;
     display: flex;
     justify-content: center;
     align-items: start;
 }
 
 .transform-moileview-icons img{
-    height: 40px;
-    width: 40px;
+    height: 20px;
+    width: 20px;
+}
+
+@media (max-width: 746px){
+    .trans-text{
+        min-height: 180px;
+    }
 }
 @media (min-width: 1001px){
     .transform-moileview-icons{
@@ -192,6 +208,14 @@
 }
 
 @media (max-width: 1000px){
+    
+    .trans-text{
+        
+    margin-top: -30px;
+    }
+    .transform-body-second{
+        border-top: 1px solid #A7A5A6;
+    }
     .transform-buttons{
         display: none;
         background-color: red;
@@ -281,6 +305,16 @@
     .transformB{
         font-size: 12px;
     }
+    .trans-2-heading{
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .trans-2-peragraph{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 
 @media (max-width: 560px){
@@ -293,6 +327,10 @@
 
     .transform-body-second{
         width: 100%;
+    }
+
+    .transform-body-first .heading{
+        line-height: 30px;
     }
 }
 

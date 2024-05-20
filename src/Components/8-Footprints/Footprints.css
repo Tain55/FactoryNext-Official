@@ -8,6 +8,7 @@
     text-align: center;
 }
 
+
 .footprinttitle{
     font-weight: 800;
     font-size: 48px;
@@ -15,6 +16,8 @@
     color: #231f20;
     text-align: center;
     padding-top: 100px;
+    margin-bottom: 1vh;
+
 }
 .footbody-1{
     width: 100%;
@@ -24,6 +27,7 @@
 .footbody-2{
     width: 85%;
     margin: auto;
+
 
 }
 .foot-nuber{
@@ -53,7 +57,8 @@
     margin-top: 0px;
     margin-bottom: 0px;
     color: #231F20;
-    text-align: center;
+    text-align: right;
+    margin-right: auto;   /* ///////////////////////////////////////////////////////// */
 }
 
 .icon-down{
@@ -72,7 +77,7 @@
     font-size: 32px;
     font-weight: 800;
     line-height: 48px;
-    margin-bottom: 0px;
+    margin-bottom: -5px;
     text-align: center;
     color: #737373;
 }
@@ -97,12 +102,22 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    object-fit: cover;
+    height: 50px;
+}
+
+.logo-box2{
+    height: 100px;
+}
+.logo-box2 img{
+    width: 55%;
+    height: 100%;
 }
 
 .button-width{
     display: flex;
     justify-content: center;
-    margin-top: 35px;
+    margin-top: 25px;
     font-weight: 700;
     font-size: 19px;
     color: #1570ef;
@@ -137,6 +152,33 @@
     height: 70px;
     border: 1px solid #A7A5A6;
 }
+
+.foot-number-box-small2{
+    width: 48%;
+    min-width: 0px;
+    height: 70px;
+    border: 1px solid #A7A5A6;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.foot-number-box-small2 .number-small{
+    font-size: 20px;
+    font-weight: 700;
+    color: #1570ef;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.foot-number-box-small2 .text-small{
+    font-size: 11px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: #231F20;
+    padding-left: 20px;
+}
+
 .foot-number-box-small .number-small{
     font-size: 20px;
     font-weight: 700;
@@ -171,10 +213,17 @@
     border-left: none;
     border-top: none;
 }
+.footB5{
+    border: none;
+}
 
 
 .foot-number-box .number{
     font-size: 72px;
+}
+
+.footprinttitle{
+    display: block;
 }
 
 @media (min-width: 1001px){
@@ -182,7 +231,7 @@
         display: none;
     }
 }
-
+.text
 @media (max-width: 1365px){
     .foot-number-box .number{
         font-size: 45px;
@@ -197,6 +246,17 @@
 
 
 @media (max-width: 1000px){
+
+    .button-width{
+        font-size: 12px;
+    }
+    .footprinttitle{
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 0px;
+    }
+
     .more{
         font-size: 30px;
         font-weight: 800;
@@ -228,6 +288,24 @@
         margin-right: 7px;
         margin-bottom: 7px;
         position: relative;
+    }
+    .logo-new{
+        height: 30px;
+        width: 20px;
+        background-color: red;
+    }
+
+    .logo-new img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .logo-box2 img{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     .logo-box-title{

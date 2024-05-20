@@ -12,7 +12,7 @@ and we will contact you within a business day.</p>
 
             <div className='question-content'>
                 <div className='question-body-left'>
-                    <img src={image1} alt="" />
+                    <div className='question-body-left-image'><img src={image1} alt="" /></div>
                 </div>
                 <div className='question-body-right'>
                     <div className='question-form'>
