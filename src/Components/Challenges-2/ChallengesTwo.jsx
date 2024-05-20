@@ -52,7 +52,7 @@ const ChallengesTwo = () => {
                 <div className='challenges2-bottom'>
                         <div className='cha-leftText'>
                             <div className='cha-img2'><img src={img3} alt="" /></div>
-                            <div className='cha-heading'>Hidden loss</div>
+                            <div className='cha-heading'>Hidden Loss</div>
                             <div className='cha-text'>Hidden losses in the manufacturing industry, including downtime, quality issues, and inventory management problems, can significantly impact efficiency and profitability. Addressing these requires a comprehensive approach.</div>
                         </div>
                 </div>
