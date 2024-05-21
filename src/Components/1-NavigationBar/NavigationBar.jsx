@@ -24,12 +24,12 @@ const NavigationBar = () => {
 
   const navLinkStyles = ({isActive}) =>{
       return{
-        textDecoration: isActive ? 'none' : 'none',
+        textDecoration: 'none',
         color: isActive ? '#1570EF' : 'white',
-        fontWeight: isActive ? '700': 'normal',
+        fontWeight: isActive ? 'bold': 'normal',
         // fontWeight: 'bold',
         fontSize: '16px',
-        position: 'relative',
+       
       }
   }
 

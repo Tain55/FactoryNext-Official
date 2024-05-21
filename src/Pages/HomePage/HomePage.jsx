@@ -270,7 +270,7 @@ const HomePage = () => {
             <Serve/>
             <Footprints/>
             <Nutshell/>
-            <Leaders/>
+            {/* <Leaders/> */}
             <Blogs/>
             <Social/>
             <Partnership/>

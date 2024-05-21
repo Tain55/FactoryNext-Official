@@ -97,7 +97,7 @@
     margin: 0px;
     margin-bottom: 56px;
     margin-top: 5px;
-    width: 50%;
+    max-width: 523px;
 }
 
 @media (max-width: 1055px){

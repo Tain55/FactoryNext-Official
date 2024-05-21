@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
 .bolg-details{
     margin-top: 100px;
     width: 90%;
@@ -30,6 +33,7 @@
     height: 100%;
     object-fit: cover;
     border-radius: 8px;
+    
 }
 
 .blog-details-heading{
@@ -39,6 +43,7 @@
     margin-bottom: 0px;
     text-align: center;
     margin-top: 60px;
+    font-family: "Hind Siliguri", sans-serif;
 }
 
 .blog-details-description{
@@ -47,6 +52,7 @@
     font-weight: 400;
     color: black;
     /* margin-top: 56px; */
+    font-family: "Hind Siliguri", sans-serif;
 }
 
 
