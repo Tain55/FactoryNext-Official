@@ -75,7 +75,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer-bottom'>
-        <p>© {currentYear} Factory Next | All Rights Reserved | An ARTHOR Initiative</p>
+        <p>&copy; {currentYear} Factory Next | All Rights Reserved | An ARTHOR Initiative</p>
       </div>
     </div>
   );

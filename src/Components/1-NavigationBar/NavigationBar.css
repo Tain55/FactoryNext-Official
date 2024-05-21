@@ -26,17 +26,10 @@
   margin-right: auto;
 }
 
-.menu-text {
-  position: relative;
-  text-decoration: none;
-  color: white;
-  font-size: 16px;
-}
 
 .menu-text:hover{
   font-weight: bold !important;
-  /* color: #1570EF !important; */
-  color: #1570EF white;
+
 }
 
 .nav-logo{

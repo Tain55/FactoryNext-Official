@@ -68,8 +68,12 @@ const Serve = () => {
   }, [isHovered, cards.length]);
 
   const chunkedCards = [];
-  for (let i = 0; i < cards.length; i += itemsToShow) {
-    chunkedCards.push(cards.slice(i, i + itemsToShow));
+  for (let i = 0; i < cards.length; i++) {
+    const chunk = cards.slice(i, i + itemsToShow);
+    while (chunk.length < itemsToShow) {
+      chunk.push(...cards.slice(0, itemsToShow - chunk.length));
+    }
+    chunkedCards.push(chunk);
   }
 
   const cardGroups = chunkedCards.map((chunk, index) => (
@@ -99,7 +103,6 @@ const Serve = () => {
           swipeable={true}
           emulateTouch={true}
           showIndicators={true}
-          showThumbs={false}
           width="100%"
           selectedItem={selectedDot}
           onChange={setSelectedDot}
