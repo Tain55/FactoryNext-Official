@@ -1,7 +1,19 @@
 .StoryBody{
     width: 100%;
     height: fit-content;
-    margin-top: -20px;
+    margin-top: 100px;
+    color: #231F20;
+}
+
+.StoryWidth{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.StoryBody2{
+    display: flex;
+    gap: 100px;
 }
 
 .story-components{
@@ -38,4 +50,122 @@
 
 .story-imge img{
     border-radius: 10px;
+}
+
+
+.titels{
+    display: flex;
+    width: 50%;
+    max-width: 320px;
+}
+
+.titleDetails{
+    border-left: 1px solid black;
+    height: fit-content;
+}
+.titleDetails2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.singleDetails{
+    display: flex;
+    gap: 15px;
+    transform: translateX(-8.5px);
+}
+.singleDetailsText{
+    gap: 4px;
+}
+.singleDetailsHeading{
+    color: #1570EF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.singleDetailsParagraph{
+    color: #231F20;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.ararow-top{
+    height: 6px;
+    width: 6px;
+    background: black;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    transform: translateX(-3.7px) translateY(-2px);
+}
+
+.ararow-bottom{
+    height: 6px;
+    width: 6px;
+    background: black;
+    clip-path: polygon(0 0, 100% 0, 50% 100%);
+    transform: translateX(-3.5px) translateY(2px);
+}
+.p4{
+    padding-bottom: 40px;
+}
+
+.story-heading{
+    padding-top: 30px;
+}
+
+@media(min-width: 746px){
+    .StoryWidth2{
+        display: none;
+    }
+}
+@media(max-width: 746px){
+    .StoryWidth{
+        display: none;
+    }
+    .StoryWidth2{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .story-components{
+        width: 100%;
+    }
+    .titels{
+        gap: 40px;
+        width: 100%;
+        max-width: 100%;
+    }
+    .story-imge img{
+        width: 100%;
+        max-width: 100%;
+    }
+    .story-heading{
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: -30px;
+        padding-top: 0px;
+    }
+    .story{
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .titels{
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+    .story-imge{
+        margin-bottom: 32px;
+    }
+    .titleDetails2{
+        gap: 18px;
+    }
+    .p4{
+        padding-bottom: 40px;
+    }
+    .titels{
+        margin-left: 8.5px;
+    }
 }

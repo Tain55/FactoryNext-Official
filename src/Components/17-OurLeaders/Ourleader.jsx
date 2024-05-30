@@ -5,7 +5,7 @@ import imageface2 from '../Images/Leaders/image 63.png'
 import './ourleader.css'
 const Ourleader = () => {
     return (
-        <div>
+        <div className='OurLeaderBody'>
             <p className='heading-ourLeaders'>Our Leaders</p>
             <div className='contents-ourL'>
                 <div className='first-contents-ourL'>
@@ -17,6 +17,13 @@ const Ourleader = () => {
                     <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface1}/>
                     <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface1}/>
                 </div>
+            </div>
+            <div className='contentsOurL2'>
+                <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface1}/>
+                <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface2}/>
+                <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface1}/>
+                <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface1}/>
+                <CardL title1="Insan Arafat Jamil" title2="Founder & CEO" image={imageface1}/>
             </div>
         </div>
     );

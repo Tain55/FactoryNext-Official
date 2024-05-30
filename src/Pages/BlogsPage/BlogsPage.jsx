@@ -9,8 +9,9 @@ import NavigationBar2 from '../../Components/NavigationBar-2/NavigationBar2';
 const BlogsPage = () => {
     return (
         <div className='homepage'>
-            <NavigationBar2/>
+            <NavigationBar/>
             <BlogsImage/>
+            <div style={{margin: window.innerWidth>'746px' ? '1000px': '50px'}}></div>
             <BlogsCompo/>
             <Footer/>
         </div>

@@ -3,3 +3,12 @@
     font-family: "Poppins", sans-serif;
     color: #231F20;
 }
+
+html{
+    scroll-snap-type: y mandatory;
+}
+
+.snap{
+    scroll-snap-align: start;
+    scroll-margin-top: 60px;
+}

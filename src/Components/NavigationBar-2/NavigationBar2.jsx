@@ -49,8 +49,8 @@ const NavigationBar2 = () => {
           <nav className='nav-menu'>
             <NavLink className='menu-text' style={navLinkStyles} to='/'>Home</NavLink>
             <NavLink className='menu-text' style={navLinkStyles} to='/about'>About Us</NavLink>
-            <NavLink className='menu-text' style={navLinkStyles} to='/soluitons'>Our solutions</NavLink>
-            <NavLink className='menu-text' style={navLinkStyles} to='/iotproducts'>IoT products</NavLink>
+            <NavLink className='menu-text' style={navLinkStyles} to='/solutions'>Our solutions</NavLink>
+            <NavLink className='menu-text' style={navLinkStyles} to='/iotproducts/machine-monitoring'>IoT products</NavLink>
             <NavLink className='menu-text' style={navLinkStyles} to='/blogs'>Blogs</NavLink>
             <NavLink className='menu-text' style={navLinkStyles} to='/informationdesk'>Information Desk</NavLink>
           </nav>

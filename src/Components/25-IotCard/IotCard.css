@@ -7,7 +7,6 @@
     width: 348px;
     align-items: flex;
     flex-direction: column;
-    gap: 20px;
 }
 
 
@@ -61,4 +60,37 @@
     cursor: pointer;
     font-size: 14px;
     font-weight: 500;
+}
+
+@media (max-width: 746px){
+    .IotCardBody{
+        width: 310px;
+    }
+    .IotCard-LeftButton{
+        width: 152px;
+    }
+    .IotCard-RightButton{
+        width: 152px;
+    }
+    .IotCard-Buttons{
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .IotCard-name{
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .IotCard-details{
+        font-weight: 700;
+        font-size: 14px;
+    }
+    .IotProductImage{
+        height: 382px;
+    }
+
+    .IotProductImage img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
 }

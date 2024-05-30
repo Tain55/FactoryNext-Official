@@ -2,38 +2,64 @@
     width: 100%;
     height: fit-content;
     padding-bottom: 100px;
-    background-color: #212834;
+}
+.teamBody2{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 48px;
 }
 
-.moreTtitle{
-    color: white;
+.teams{
+    display: flex;
+    gap: 56px;
 }
 
+.teamHeading{
+    display: flex;
+    align-items: center;
+    margin-bottom: -18px;
+    gap: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1570EF;
+
+}
+.teamHeading img{
+    height: 24px;
+    width: 24px;
+}
 .teamDetails{
-    width: 100%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #231F20;
+    margin-top: 0px;
+}
+.teamSingle{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 23px;
+    flex-direction: column;
 }
 
-.teamImage{
-    margin-top: 20px;
-    margin-bottom: -10px;
-    display: flex;
-    justify-content: center;
-}
-.teamBox{
-    height: 180px;
-    width: 250px;
-    background-color: white;
-    border-radius: 7px;
-}
 
-.teamBox p{
-    text-align: center;
-    color: #212834;
-    font-weight: 600;
-    font-size: 28px;
-    line-height: 42px;
+@media (max-width: 746px){
+    .teamHeading{
+        display: flex;
+        align-items: center;
+        margin-bottom: -18px;
+        gap: 8px;
+        font-weight: 500;
+        font-size: 12px;
+        line-height: 18px;
+        color: #1570EF;
+    
+    }
+    .teamDetails{
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 15px;
+        color: #231F20;
+        margin-top: 0px;
+    }
 }

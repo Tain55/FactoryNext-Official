@@ -112,6 +112,11 @@
 
 }
 
+@media (max-width:746px){
+    .moreNutshelltitle{
+        padding-bottom: 40px;
+    }
+}
 @media (max-width:400px){
     .moreNutshelltitle{
         padding-bottom: 40px;
