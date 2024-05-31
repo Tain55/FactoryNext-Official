@@ -63,10 +63,10 @@ const OurSolutons = () => {
     return (
         <div className='homepage'>
             <NavigationBar/>
-            <div className='snap'>
+            <div className=''>
                 <OurSolutionBanner/>
             </div>
-            <div className='snap'>
+            <div className=''>
                 <Solutions/>
              </div>
 
@@ -92,7 +92,7 @@ const OurSolutons = () => {
       <div className="lastContainer">Last Container</div>
     </div> */}
             
-            <div className='snap'>
+            <div className=''>
             <Swiper
                 direction={'horizontal'}
                 slidesPerView={1}
@@ -115,7 +115,7 @@ const OurSolutons = () => {
                     <SwiperSlide><OurSolutionCard/></SwiperSlide>
                 </Swiper>
             </div>
-            <div className='snap'>
+            <div className=''>
                 <Footer/>
             </div>
         </div>
