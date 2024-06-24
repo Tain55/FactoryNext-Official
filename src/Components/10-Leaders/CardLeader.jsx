@@ -4,7 +4,7 @@ import images from '../Images/Challenges/image 30.png';
 import logo1 from '../Images/Leaders/Vector.png'
 import logo2 from '../Images/Leaders/Vector2.png'
 
-const CardC = ({ title1, title2, image }) => {
+const CardC = ({ title1, title2, image,email='test@yahoo.com' }) => {
   return (
     <div className="cardL">
       <div className='background-card'>

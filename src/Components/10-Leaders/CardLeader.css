@@ -31,6 +31,12 @@
   margin-top: 12px;
 }
 
+
+.logosLeader img{
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
 .logosLeader img:hover{
   cursor: pointer;
 }

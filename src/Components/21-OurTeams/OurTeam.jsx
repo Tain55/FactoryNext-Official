@@ -16,7 +16,8 @@ const OurTeam = () => {
                     <div className='teamSingle'>
                         <div className='teamHeading'>
                             <img src={img1} alt="" />
-                            <p>Business Team</p>
+                            <p>AI & IOT team
+                            </p>
                         </div>
                         <div className='teamDetails'>
                             <p>Lorem ipsum dolor sit amet consectetur. Leo aliquam faucibus eget cras. Vivamus arcu eu commodo nulla. Porta sed euismod morbi in elit. Dui aliquam rhoncus nisi quam. Convallis viverra et dignissim pellentesque elementum lorem gravida. Feugiat hendrerit eget arcu commodo tellus quisque nisi purus mauris. Elit volutpat nunc leo blandit.</p>
