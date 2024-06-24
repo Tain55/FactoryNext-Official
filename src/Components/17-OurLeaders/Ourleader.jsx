@@ -18,10 +18,17 @@ const Ourleader = () => {
             title2="Founder & CEO"
             image={imageface1}
           />
-          <CardL title1="Arif Mahmood" title2="Founder & CEO" image={arif} />
+          <CardL
+            title1="Dr. Arif Iftakher Mahmood
+"
+            title2="Co-founder  &  Advisor
+"
+            image={arif}
+          />
           <CardL
             title1="Abdullah Al Mamun"
-            title2="Founder & CEO"
+            title2="Co-founder  &  Advisor
+"
             image={mamun}
           />
         </div>
@@ -45,22 +52,24 @@ const Ourleader = () => {
       </div>
 
       <div className="contentsOurL2">
-        <CardL
-          title1="Insan Arafat Jamil"
-          title2="Founder & CEO"
-          image={imageface1}
-        />
-        <CardL title1="Arif Mahmood" title2="Founder & CEO" image={arif} />
-        <CardL
-          title1="Abdullah Al Mamun"
-          title2="Founder & CEO"
-          image={mamun}
-        />
-        <CardL
-          title1="Plabon Dutta"
-          title2="Technical Director"
-          image={plabon}
-        />
+      <CardL
+            title1="Insan Arafat Jamil"
+            title2="Founder & CEO"
+            image={imageface1}
+          />
+          <CardL
+            title1="Dr. Arif Iftakher Mahmood
+"
+            title2="Co-founder  &  Advisor
+"
+            image={arif}
+          />
+          <CardL
+            title1="Abdullah Al Mamun"
+            title2="Co-founder  &  Advisor
+"
+            image={mamun}
+          />
         <CardL
           title1="Anik Islam Sajib"
           title2="Technical Director"

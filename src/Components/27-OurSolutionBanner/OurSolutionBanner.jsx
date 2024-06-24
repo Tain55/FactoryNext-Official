@@ -23,7 +23,7 @@ const OurSolutionBanner = () => {
                 }}>
                 <div className='bannerContents'>
                         <div className='aboutUs' style={{zIndex:3}}>
-                            <p className='image-p'>Our SOlutions</p>
+                            <p className='image-p'>Our Solutions</p>
                         </div>
                         <div className='scrolldown'>
                             <div className='scrollDownHeight'>

@@ -41,7 +41,7 @@ const Story = () => {
                                     <img src={titlei1} alt="" />
                                     <div className='singleDetailsText'>
                                     <p className='singleDetailsHeading'>Foundation and Early Development (September 2021 - December 2021)</p>
-                                    <p className='singleDetailsParagraph'>Factory Next was established as a collaborative initiative by Arthor Limited with a small team of young engineers, researchers, and entrepreneurs. The primary mission was to revolutionize the industrial landscape of Bangladesh using next-generation intelligent technologies. The team focused on addressing the lack of reliable real-time data in local factories, which posed a significant challenge for efficient management and decision-making.
+                                    <p className='singleDetailsParagraph'>Factory Next was established as a collaborative initiative by Arthor Limited with a small team of young engineers, researchers, and entrepreneurs. 
                                     </p>
                                     </div>
                                 </div>
@@ -50,7 +50,7 @@ const Story = () => {
                                     <div className='singleDetailsText'>
                                     <p className='singleDetailsHeading'> Research and Development (September 2021 - March 2022)
                                     </p>
-                                    <p className='singleDetailsParagraph'>The team engaged in extensive research and development to create a smart factory ecosystem. This phase involved developing and integrating cutting-edge sensors, analytics, and machine learning algorithms. The goal was to provide real-time insights into factory operations, production processes, and environments, enabling factory owners and managers to identify bottlenecks, optimize processes, and improve efficiency by 30-40%.
+                                    <p className='singleDetailsParagraph'>The team engaged in extensive research and development to create a smart factory ecosystem. This phase involved developing and integrating cutting-edge sensors, analytics, and machine learning algorithms.
                                     </p>
                                     </div>
                                 </div>
@@ -59,8 +59,7 @@ const Story = () => {
                                     <div className='singleDetailsText'>
                                     <p className='singleDetailsHeading'>Platform Unveiling and Initial Success (March 2022 - December 2022)
                                     </p>
-                                    <p className='singleDetailsParagraph'>After months of dedicated R&D, Factory Next unveiled its advanced platform, which seamlessly integrated the developed technologies. The platform received positive feedback for its innovative approach to transforming manual factory management systems into smart, data-driven ones. On December 10, 2021, Factory Next was recognized as one of the top 10 technology startups in Bangladesh by IDEA (Innovation, Development & Entrepreneurship Academy) for its innovative production monitoring and analysis solution for local textile industries.
-                                    </p>
+                                    <p className='singleDetailsParagraph'>After months of dedicated R&D, Factory Next unveiled its advanced platform, which seamlessly integrated the developed technologies. </p>
                                     </div>
                                 </div>
                                 <div className='singleDetails'>
@@ -68,7 +67,7 @@ const Story = () => {
                                     <div className='singleDetailsText'>
                                     <p className='singleDetailsHeading'> Expansion and Continuous Improvement (January 2023 - Present)
                                     </p>
-                                    <p className='singleDetailsParagraph'>Building on its initial success, Factory Next has continued to refine and expand its platform. This phase involves onboarding more factories, enhancing the technology with continuous updates, and exploring new industrial applications. The focus remains on driving the adoption of intelligent technologies across more factories in Bangladesh, aiming to further increase efficiency and promote the 4th industrial revolution in local industries.
+                                    <p className='singleDetailsParagraph'>Building on its initial success, Factory Next has continued to refine and expand its platform.
 
                                     </p>
                                     </div>
