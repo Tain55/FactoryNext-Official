@@ -17,6 +17,8 @@ const Ourleader = () => {
             title1="Insan Arafat Jamil"
             title2="Founder & CEO"
             image={imageface1}
+            email="jamil@factorynext.com.bd"
+            linkedIn="https://www.linkedin.com/in/insan-arafat-jamil/"
           />
           <CardL
             title1="Dr. Arif Iftakher Mahmood
@@ -24,12 +26,16 @@ const Ourleader = () => {
             title2="Co-founder  &  Advisor
 "
             image={arif}
+            email="arifmahmood@factorynext.com.bd"
+            linkedIn=""
           />
           <CardL
             title1="Abdullah Al Mamun"
             title2="Co-founder  &  Advisor
 "
             image={mamun}
+            email="mamun@factorynext.com.bd"
+            linkedIn=""
           />
         </div>
         <div className="second-contents-ourL">
@@ -37,48 +43,71 @@ const Ourleader = () => {
             title1="Plabon Dutta"
             title2="Technical Director"
             image={plabon}
+            email="plabon@factorynext.com.bd"
+            linkedIn="https://www.linkedin.com/in/plabon-dutta-29231931/"
           />
           <CardL
             title1="Anik Islam Sajib"
             title2="Technical Director"
             image={anik}
+            email="anik@factorynext.com.bd"
+            linkedIn="https://www.linkedin.com/in/anik-islam-shojib-495ba5104"
           />
           <CardL
             title1="Naib Hossain Khan"
             title2="Technical Director"
             image={naib}
+            email="naib@factorynext.com.bd"
+            linkedIn="https://www.linkedin.com/in/naibkhan/"
           />
         </div>
       </div>
 
       <div className="contentsOurL2">
-      <CardL
-            title1="Insan Arafat Jamil"
-            title2="Founder & CEO"
-            image={imageface1}
-          />
-          <CardL
-            title1="Dr. Arif Iftakher Mahmood
+        <CardL
+          title1="Insan Arafat Jamil"
+          title2="Founder & CEO"
+          image={imageface1}
+          email="jamil@factorynext.com.bd"
+          linkedIn="https://www.linkedin.com/in/insan-arafat-jamil/"
+        />
+        <CardL
+          title1="Dr. Arif Iftakher Mahmood
 "
-            title2="Co-founder  &  Advisor
+          title2="Co-founder  &  Advisor
 "
-            image={arif}
-          />
-          <CardL
-            title1="Abdullah Al Mamun"
-            title2="Co-founder  &  Advisor
+          image={arif}
+          email="arifmahmood@factorynext.com.bd"
+          linkedIn=""
+        />
+        <CardL
+          title1="Abdullah Al Mamun"
+          title2="Co-founder  &  Advisor
 "
-            image={mamun}
-          />
+          image={mamun}
+          email="mamun@factorynext.com.bd"
+          linkedIn=""
+        />
+        <CardL
+          title1="Plabon Dutta"
+          title2="Technical Director"
+          image={plabon}
+          email="plabon@factorynext.com.bd"
+          linkedIn="https://www.linkedin.com/in/plabon-dutta-29231931/"
+        />
         <CardL
           title1="Anik Islam Sajib"
           title2="Technical Director"
           image={anik}
+          email="anik@factorynext.com.bd"
+          linkedIn="https://www.linkedin.com/in/anik-islam-shojib-495ba5104"
         />
         <CardL
-          title1="naib Hossain Khan"
+          title1="Naib Hossain Khan"
           title2="Technical Director"
           image={naib}
+          email="naib@factorynext.com.bd"
+          linkedIn="https://www.linkedin.com/in/naibkhan/"
         />
       </div>
     </div>
