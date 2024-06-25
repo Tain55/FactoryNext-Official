@@ -13,13 +13,7 @@ const Ourleader = () => {
       <p className="heading-ourLeaders">Our Leaders</p>
       <div className="contents-ourL">
         <div className="first-contents-ourL">
-          <CardL
-            title1="Insan Arafat Jamil"
-            title2="Founder & CEO"
-            image={imageface1}
-            email="jamil@factorynext.com.bd"
-            linkedIn="https://www.linkedin.com/in/insan-arafat-jamil/"
-          />
+         
           <CardL
             title1="Dr. Arif Iftakher Mahmood
 "
@@ -28,6 +22,13 @@ const Ourleader = () => {
             image={arif}
             email="arifmahmood@factorynext.com.bd"
             linkedIn=""
+          />
+           <CardL
+            title1="Insan Arafat Jamil"
+            title2="Founder & CEO"
+            image={imageface1}
+            email="jamil@factorynext.com.bd"
+            linkedIn="https://www.linkedin.com/in/insan-arafat-jamil/"
           />
           <CardL
             title1="Abdullah Al Mamun"
@@ -64,13 +65,7 @@ const Ourleader = () => {
       </div>
 
       <div className="contentsOurL2">
-        <CardL
-          title1="Insan Arafat Jamil"
-          title2="Founder & CEO"
-          image={imageface1}
-          email="jamil@factorynext.com.bd"
-          linkedIn="https://www.linkedin.com/in/insan-arafat-jamil/"
-        />
+        
         <CardL
           title1="Dr. Arif Iftakher Mahmood
 "
@@ -79,6 +74,13 @@ const Ourleader = () => {
           image={arif}
           email="arifmahmood@factorynext.com.bd"
           linkedIn=""
+        />
+        <CardL
+          title1="Insan Arafat Jamil"
+          title2="Founder & CEO"
+          image={imageface1}
+          email="jamil@factorynext.com.bd"
+          linkedIn="https://www.linkedin.com/in/insan-arafat-jamil/"
         />
         <CardL
           title1="Abdullah Al Mamun"
