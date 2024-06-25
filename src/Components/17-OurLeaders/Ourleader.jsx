@@ -23,7 +23,7 @@ const Ourleader = () => {
           <CardL
             title1="Dr. Arif Iftakher Mahmood
 "
-            title2="Co-founder  &  Advisor
+            title2="Co-founder and Chairman
 "
             image={arif}
             email="arifmahmood@factorynext.com.bd"
@@ -31,11 +31,11 @@ const Ourleader = () => {
           />
           <CardL
             title1="Abdullah Al Mamun"
-            title2="Co-founder  &  Advisor
+            title2="Co-founder and CTO
 "
             image={mamun}
             email="mamun@factorynext.com.bd"
-            linkedIn=""
+            linkedIn="https://www.linkedin.com/in/abdullah-al-mamun-47924aa6"
           />
         </div>
         <div className="second-contents-ourL">
@@ -74,7 +74,7 @@ const Ourleader = () => {
         <CardL
           title1="Dr. Arif Iftakher Mahmood
 "
-          title2="Co-founder  &  Advisor
+          title2="Co-founder and Chairman
 "
           image={arif}
           email="arifmahmood@factorynext.com.bd"
@@ -82,11 +82,11 @@ const Ourleader = () => {
         />
         <CardL
           title1="Abdullah Al Mamun"
-          title2="Co-founder  &  Advisor
+          title2="Co-founder and CTO
 "
           image={mamun}
           email="mamun@factorynext.com.bd"
-          linkedIn=""
+          linkedIn="https://www.linkedin.com/in/abdullah-al-mamun-47924aa6"
         />
         <CardL
           title1="Plabon Dutta"
