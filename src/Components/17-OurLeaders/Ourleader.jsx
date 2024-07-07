@@ -2,7 +2,7 @@ import React from "react";
 import CardL from "../10-Leaders/CardLeader";
 import imageface1 from "../Images/Leaders/image 62.png";
 import arif from "../Images/Leaders/arif sir.jpg";
-import mamun from "../Images/Leaders/mamun.jpeg";
+import mamun from "../Images/Leaders/mamun.png";
 import plabon from "../Images/Leaders/plabon.jpg";
 import anik from "../Images/Leaders/anik.jpeg";
 import naib from "../Images/Leaders/naib.jpeg";
