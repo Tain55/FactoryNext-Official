@@ -1,6 +1,7 @@
 import React from 'react';
-import image1 from '../Images/About us/image 84.png';
+import image1 from '../Images/About us/AboutBanner/cement-plant-sunset 1.png';
 import './ImageStory.css';
+import { RiArrowDownDoubleFill } from "react-icons/ri";
 
 const ImageStory = () => {
     return (
@@ -16,20 +17,27 @@ const ImageStory = () => {
                     left: 0,
                     width: '100%',
                     height: '100%',
-                    backgroundColor: '#2e2e2e50', // Red overlay with 50% opacity
+                    // backgroundColor: 'linear-gradient(180deg, rgba(0, 0, 0, 0.81) 0%, rgba(0, 0, 0, 0.57) 45.25%, rgba(0, 0, 0, 0.45) 57%, rgba(0, 0, 0, 0.27) 100%)', // Red overlay with 50% opacity
+                    // backgroundColor: '#2e2e2e50',
                     zIndex: 1 // Ensure the overlay is above the image
-                }}></div>
+                }}>
+                    <div className='bannerContents'>
+                        <div className='aboutUs' style={{zIndex:3}}>
+                            <p className='image-p'>About Us</p>
+                        </div>
+                        <div className='scrolldown'>
+                            <div className='scrollDownHeight'>
+                                <p>Scroll Down</p>
+                                <RiArrowDownDoubleFill className='scroll_icon'/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 {/* Image */}
-                <img className='img' src={image1} alt="" style={{
-                    width: '100%',
-                    height: 'auto',
-                    display: 'block' // Ensures the image behaves as a block element
-                }} />
+                <img className='img' src={image1} alt="" />
             </div>
-            <div className='image-text-ab' style={{zIndex:3}}>
-                <p className='image-p'>About Us</p>
-            </div>
+            
         </div>
     );
 };

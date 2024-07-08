@@ -14,7 +14,7 @@ const AboutPage = () => {
             <Story/>
             <Nutshell/>
             <Ourleader/>
-            <OurTeam/>
+            {/* <OurTeam/> */}
             <Footer/>
         </div>
     );

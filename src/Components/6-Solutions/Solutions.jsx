@@ -27,7 +27,7 @@ import bigCircle from "../Images/Our Soluitions new/Title.png";
 import solutionImage from "../Images/solution images/Objects.png";
 import { Link } from "react-router-dom";
 
-const Solutions = () => {
+const Solutions = ({SolutionNumber}) => {
   return (
     <div className="solution-1">
       <div className="solution-2">
@@ -106,7 +106,7 @@ const Solutions = () => {
           <div className="Solution-Details-1">
             <div className="Solution-text1">
               <p className="Solution-heading">
-                <Link to="/solutions">Machine and Process Monitoring</Link>
+                <Link to="/solutions" onClick={()=>SolutionNumber('a')}>Machine and Process Monitoring</Link>
               </p>
               <p className="Solution-details">
                 Real-time tracking and analytics for equipment and processes to
@@ -116,7 +116,7 @@ const Solutions = () => {
             <div className="Solution-text2">
               <p className="Solution-heading">
                 {" "}
-                <Link to="/solutions">
+                <Link to="/solutions" onClick={()=>SolutionNumber('b')}>
                   4IR Transformation Design & Consultancy
                 </Link>{" "}
               </p>
@@ -130,7 +130,7 @@ const Solutions = () => {
             <div className="Solution-text3">
               <p className="Solution-heading">
                 {" "}
-                <Link to="/solutions">Environment Monitoring</Link>
+                <Link to="/solutions" onClick={()=>SolutionNumber('c')}>Environment Monitoring</Link>
               </p>
               <p className="Solution-details">
                 Continuous assessment of environmental conditions to ensure
@@ -140,7 +140,7 @@ const Solutions = () => {
 
             <div className="Solution-text4">
               <p className="Solution-heading">
-                <Link to="/solutions">AI Features</Link>{" "}
+                <Link to="/solutions" onClick={()=>SolutionNumber('d')}>AI Features</Link>{" "}
               </p>
               <p className="Solution-details">
                 Advanced AI technologies for predictive maintenance,
@@ -151,7 +151,7 @@ const Solutions = () => {
 
           <div className="Solution-text5 ">
             <p className="Solution-heading">
-              <Link to="/solutions">Energy & Utility Monitoring</Link>
+              <Link to="/solutions" onClick={()=>SolutionNumber('e')}>Energy & Utility Monitoring</Link>
             </p>
             <p className="Solution-details">
               Optimization of energy use and utility management for cost and
@@ -164,7 +164,7 @@ const Solutions = () => {
           <p className="our-solution-heading">Our Solutions</p>
           <div className="solutoin-mobile-cards">
             <div className="solution-mobile-row">
-              <Link to='/solutions' style={{ textDecoration: "none" }}>
+              <Link to='/solutions' style={{ textDecoration: "none" }} onClick={()=>SolutionNumber('a')}>
                 <div className="solution-mobile">
                   <div className="headingAndIcon">
                     <div className="solution-mobile-image">
@@ -180,7 +180,7 @@ const Solutions = () => {
                   </p>
                 </div>
               </Link>
-              <Link  to='/solutions'  style={{ textDecoration: "none" }}>
+              <Link  to='/solutions'  style={{ textDecoration: "none" }} onClick={()=>SolutionNumber('b')}>
                 <div className="solution-mobile ">
                   <div className="headingAndIcon">
                     <div className="solution-mobile-image">
@@ -196,7 +196,7 @@ const Solutions = () => {
                   </p>
                 </div>
               </Link>
-              <Link  to='/solutions'  style={{ textDecoration: "none" }}>
+              <Link  to='/solutions'  style={{ textDecoration: "none" }} onClick={()=>SolutionNumber('c')}>
                 <div className="solution-mobile ">
                   <div className="headingAndIcon">
                     <div className="solution-mobile-image">
@@ -213,7 +213,7 @@ const Solutions = () => {
                   </p>
                 </div>
               </Link>
-              <Link  to='/solutions'  style={{ textDecoration: "none" }}>
+              <Link  to='/solutions'  style={{ textDecoration: "none" }} onClick={()=>SolutionNumber('d')}>
                 <div className="solution-mobile ">
                   <div className="headingAndIcon">
                     <div className="solution-mobile-image">
@@ -227,7 +227,7 @@ const Solutions = () => {
                   </p>
                 </div>
               </Link>
-              <Link  to='/solutions'  style={{ textDecoration: "none" }}>
+              <Link  to='/solutions'  style={{ textDecoration: "none" }} onClick={()=>SolutionNumber('e')}>
                 <div className="solution-mobile ">
                   <div className="headingAndIcon">
                     <div className="solution-mobile-image">

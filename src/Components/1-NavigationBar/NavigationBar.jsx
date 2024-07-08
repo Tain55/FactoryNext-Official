@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import './NavigationBar.css'
 import logo from '../Images/logo.png';
 import transform from './../3-Transform/Transform';
@@ -8,9 +8,11 @@ import Solutions from './../6-Solutions/Solutions';
 import Blogs from './../11-Blogs/Blogs';
 import InformationDesk from './../../Pages/InformationDeskPage/InformationDesk';
 
+
 const NavigationBar = () => {
   const [menu, setMenu] = useState('a');
   const [color, setColor] = useState(false)
+  const [isChecked, setIsChecked] = useState(false);
 
   const changeColor = () => {
     if(window.scrollY>=200){
@@ -33,6 +35,24 @@ const NavigationBar = () => {
       }
   }
 
+  // const handleCheckboxChange = () => {
+  //   setIsChecked(false); // Toggle the value
+  // };
+  let menueRef = useRef();
+
+  useEffect (()=>{
+    let handler = (e) =>{
+      
+      if(!menueRef.current.contains(e.target)){
+        setIsChecked(false);
+      }
+    }
+
+    document.addEventListener("mousedown", handler);
+  });
+
+  
+
   return (
     <div className={color ? 'navbar navColor':'navbar navTrans' } >
       <div className='navContents'>
@@ -41,17 +61,18 @@ const NavigationBar = () => {
             <img className='nav-icon' src={logo} alt="" />
           </div>
         </Link>
-        <input type='checkbox' id='check'/>
-        <label htmlFor="check">
-            <IoMenuOutline className='checkIcon'/>
+        <input type='checkbox' id='check' />  {/* checked={isChecked} */}
+        <label htmlFor="check" >
+            {/* <IoMenuOutline className='checkIcon' onClick={()=>isChecked? setIsChecked(false): setIsChecked(true)}/> */}
+            <IoMenuOutline className='checkIcon' onClick={()=>{setIsChecked(prevState => !prevState)}}/>
         </label>
-        <div className='lists'>
-          <nav className='nav-menu'>
+        <div className='lists' ref={menueRef}>
+          <nav className='nav-menu' >
             <NavLink className='menu-text' style={navLinkStyles} to='/'>Home</NavLink>
-            <NavLink className='menu-text' style={navLinkStyles} to='/aboutX'>About Us</NavLink>
-            <NavLink className='menu-text' style={navLinkStyles} to='/soluitonsX'>Our solutions</NavLink>
-            <NavLink className='menu-text' style={navLinkStyles} to='/iotproductsX'>IoT products</NavLink>
-            <NavLink className='menu-text' style={navLinkStyles} to='/blogsX'>Blogs</NavLink>
+            <NavLink className='menu-text' style={navLinkStyles} to='/about'>About Us</NavLink>
+            <NavLink className='menu-text' style={navLinkStyles} to='/solutions'>Our Solutions</NavLink>
+            {/* <NavLink className='menu-text' style={navLinkStyles} to='/iotproducts/machine-monitoring'>IoT products</NavLink> */}
+            {/* <NavLink className='menu-text' style={navLinkStyles} to='/blogs'>Blogs</NavLink> */}
             <NavLink className='menu-text' style={navLinkStyles} to='/informationdesk'>Information Desk</NavLink>
           </nav>
 

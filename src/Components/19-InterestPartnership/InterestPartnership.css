@@ -1,9 +1,10 @@
-.interest{
+.interest-main{
     background: #212834;
+    width: 100%;
 }
 
 .interest-body{
-    width: 90%;
+    width: 92%;
     height: fit-content;
     display: flex;
     flex-direction: column;
@@ -48,7 +49,7 @@
 }
 
 
-.interest{
+.interest-main{
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -62,12 +63,14 @@
     color: #d4d4d4;
     line-height: 60px;
     background: #212834;
+
 }
 
 .interest-form::placeholder{
     color: #686868;
-    padding-left: 10px;
     font-size: 16px;
+    
+    transform: translateY(1.5px);
 }
 
 .moreOption{
@@ -121,11 +124,21 @@
 }
 
 .interest-form::placeholder{
-    padding-left: 10px;
+    padding-left: 0px;
     font-size: 16px;
     font-weight: 400;
     font-family: "Poppins", sans-serif;
 }
+.error2{
+    margin-top: -13px;
+}
+
+.interest{
+    display: flex;
+    flex-direction: column;
+}
+
+
 
 @media (max-width: 1055px){
     .a{
@@ -152,6 +165,9 @@
     }
     .C{
         width: 100%;
+    }
+    .interestForm{
+        width: 92%;
     }
 }
 

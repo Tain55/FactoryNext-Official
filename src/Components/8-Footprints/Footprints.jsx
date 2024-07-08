@@ -16,6 +16,7 @@ import image10 from './../Images/Footprints logos/image 56.png';
 import image11 from './../Images/Footprints logos/image 57.png';
 import image12 from './../Images/Footprints logos/image 58.png';
 import image13 from './../Images/Footprints logos/rahimafroz.png';
+import agroshift from './../Images/Footprints logos/agroshift.svg';
 
 import { css } from '@emotion/react';
 import { ClipLoader } from 'react-spinners';
@@ -115,6 +116,7 @@ const Footprints = () => {
                         <div className='logo-box footLogo' style={{ display: isActive ? 'block' : 'none'}}><img src={image11} alt="" /></div>
                         <div className='logo-box footLogo' style={{ display: isActive ? 'block' : 'none'}}><img src={image12} alt="" /></div>
                         <div className='logo-box logo-box2 footLogo' style={{ display: isActive ? 'block' : 'none'}}><img src={image13} alt="" /></div>
+                        <div className='logo-box' style={{ display: isActive ? 'block' : 'none'}}><img src={agroshift} alt="" /></div>
                     </div>
                     {/* <div className='button-width' >
                         Load More

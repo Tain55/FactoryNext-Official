@@ -48,11 +48,16 @@
 }
 
 .question-input::placeholder{
-    padding-left: 10px;
     font-size: 16px;
     font-weight: 400;
     color: #686868aa;
     font-family: "Poppins", sans-serif;
+    transform: translateY(2px);
+}
+
+.textarea::placeholder{
+    
+    transform: translateY(-5px);
 }
 
 .textarea{
@@ -60,6 +65,8 @@
     resize: none;
     padding-top: 22px;
 }
+
+
 
 
 
@@ -99,6 +106,23 @@
     margin-top: 5px;
     max-width: 523px;
 }
+form input{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+form textarea{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.error{
+    text-align: start;
+    margin-top: -18px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: rgb(233, 70, 70);
+    font-weight: 400;
+}
+
 
 @media (max-width: 1055px){
     .question-p{

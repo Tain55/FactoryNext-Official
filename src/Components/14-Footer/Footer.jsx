@@ -70,7 +70,7 @@ const Footer = () => {
             </li>
             <li><Link to='/iotProducts' style={{ textDecoration: 'none', color: 'white' }}>IoT Products</Link></li>
             <li><Link to='/about' style={{ textDecoration: 'none', color: 'white' }}>Blogs</Link></li>
-            <li><Link to='/informationdesk' style={{ textDecoration: 'none', color: 'white' }}>Information Desk</Link></li>
+            <li><Link to='/informationdesk/machine-monitoring' style={{ textDecoration: 'none', color: 'white' }}>Information Desk</Link></li>
           </ul>
         </div>
       </div>

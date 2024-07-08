@@ -68,12 +68,21 @@ const Serve = () => {
   }, [isHovered, cards.length]);
 
   const chunkedCards = [];
-  for (let i = 0; i < cards.length; i++) {
-    const chunk = cards.slice(i, i + itemsToShow);
-    while (chunk.length < itemsToShow) {
-      chunk.push(...cards.slice(0, itemsToShow - chunk.length));
+  // for (let i = 0; i < cards.length; i++) {
+  //   const chunk = cards.slice(i, i + itemsToShow);
+  //   while (chunk.length < itemsToShow) {
+  //     chunk.push(...cards.slice(0, itemsToShow - chunk.length));
+  //   }
+  //   chunkedCards.push(chunk);
+  // }
+
+  for (let i = 0; i < cards.length; i += itemsToShow) {
+    if(i==9 && window.innerWidth >= 1280){
+      chunkedCards.push(cards.slice(7,10));
     }
-    chunkedCards.push(chunk);
+    else{
+      chunkedCards.push(cards.slice(i, i + itemsToShow));
+    }
   }
 
   const cardGroups = chunkedCards.map((chunk, index) => (
@@ -101,7 +110,10 @@ const Serve = () => {
           showStatus={false}
           infiniteLoop={true}
           swipeable={true}
+          swipe={true}
           emulateTouch={true}
+          // emulateTouch={false}
+          // swipeScrollTolerance={true}
           showIndicators={true}
           width="100%"
           selectedItem={selectedDot}

@@ -5,7 +5,7 @@ import './Leaders.css';
 import CardL from './CardLeader';
 import image1 from '../Images/Leaders/jamil.jpeg';
 import image2 from '../Images/Leaders/arif sir.jpg';
-import image3 from '../Images/Leaders/mamun.jpeg'
+import image3 from '../Images/Leaders/mamun.png'
 
 
 const Leaders = () => {

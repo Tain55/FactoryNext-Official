@@ -1,10 +1,16 @@
+.OurLeaderBody{
+    background-color: #161616;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    margin-bottom: -40px;
+}
 .heading-ourLeaders{
     font-size: 48px;
     line-height: 64px;
     font-weight: 700;
-    color: #231f20;
+    /* color: #231f20; */
+    color: white;
     text-align: center;
-    margin-top: 100px;
 }
 
 .contents-ourL{
@@ -24,4 +30,23 @@
     margin-top: 30px;
     margin-bottom: 50px;
 }
+.contentsOurL2{
+    display: none;
+}
+
+@media (max-width: 1000px){
+    .contents-ourL{
+        display: none;
+    }
+    .contentsOurL2{
+        display: flex;
+        flex-direction: column;
+        color: white;
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
 
