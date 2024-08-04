@@ -104,15 +104,12 @@ const OurSolutons = () => {
                 onReachBeginning={handleReachBeginning}
                 className="mySwiper"
             >
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
-                    <SwiperSlide><OurSolutionCard/></SwiperSlide>
+                    <SwiperSlide><OurSolutionCard title='Machine and Process Monitoring' details='Real-time tracking and analytics for equipment and processes to enhance efficiency.'/></SwiperSlide>
+                    <SwiperSlide><OurSolutionCard title='Environment Monitoring' details='Continuous assessment of environmental conditions to ensure regulatory compliance.'/></SwiperSlide>
+                    <SwiperSlide><OurSolutionCard title='Energy & Utility Monitoring' details='Optimization of energy use and utility management for cost and resource savings.'/></SwiperSlide>
+                    <SwiperSlide><OurSolutionCard title='AI & Machine Learning Features' details='Advanced AI technologies for predictive maintenance, optimization, and energy management.'/></SwiperSlide>
+                    <SwiperSlide><OurSolutionCard title='4 IR Transformation Design & Consultancy' details='Strategic consultancy for integrating Industry 4.0 technologies into business operations.'/></SwiperSlide>
+        
                 </Swiper>
             </div>
             <div className=''>

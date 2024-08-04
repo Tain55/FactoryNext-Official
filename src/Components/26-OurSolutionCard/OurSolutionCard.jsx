@@ -4,7 +4,7 @@ import img from '../Images/Our Soluitions new/Our Solutions/1.png'
 import Mimg from '../Images/Our Soluitions new/Our Solutions/mobile View/mobile 1.png'
 
 
-const OurSolutionCard = () => {
+const OurSolutionCard = ({title,details}) => {
     const [solution, setSolution] = useState('a');
 
     
@@ -13,8 +13,8 @@ const OurSolutionCard = () => {
         <div className='SolutionBody'>
             <div className='SolutionLeft'>
                 <div className='SContents'>
-                    <p className='SLeftH'>Machine and Process Monitoring</p>
-                    <p className='SLeftP'>Lorem ipsum dolor sit amet consectetur. Diam ultrices placerat viverra volutpat elementum amet. Auctor dolor donec diam ornare consequat. Ornare vestibulum rhoncus nunc erat lacus diam blandit condimentum risus. Etiam nisl commodo eget suscipit. A viverra tincidunt imperdiet id quis tellus nibh nunc convallis. A sed id vestibulum et sed.</p>
+                    <p className='SLeftH'>{title}</p>
+                    <p className='SLeftP'>{details}</p>
                     <div className='Social-Button SolutionB'>Know More</div>
                 </div>
             </div>
