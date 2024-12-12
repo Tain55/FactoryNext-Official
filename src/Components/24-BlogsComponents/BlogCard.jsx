@@ -5,25 +5,27 @@ import profImg from '../Images/Blog/Avatar Image.png'
 // import { TfiArrowTopRight } from "react-icons/tfi";
 import { MdCallMade } from "react-icons/md";
 import { Link } from 'react-router-dom';
-import BlogDetailPage from '../../Pages/BlogDetailPage/BlogDetailPage';
 
-const BlogCard = () => {
+const BlogCard = ({id, title, desc, date, image}) => {
     const backgroundImageStyle = {
-        backgroundImage: `url(${img})`
+        backgroundImage: `url(${image})`,
+        backgroundPosition: 'center', // Centers the image
+        backgroundSize: 'cover', // Ensures the image covers the element
+        backgroundRepeat: 'no-repeat'
     };
     return (
         <>
-            <Link to={'/blogDetailPage'} style={{textDecoration:'none', color: '#231F20'}}>
+            <Link to={`/blogDetailPage${id}`} style={{textDecoration:'none', color: '#231F20'}}>
                 <div className='blog-card-body'>
                     <div className='blog-cart-image' style={backgroundImageStyle}></div>
-                    <div className='blog-heading'><p>How to Achieve Productive Maintenance</p><MdCallMade className='blog-arrow'/></div>
-                    <p className='blog-text'>Lorem ipsum dolor sit amet consectetur. Purus lobortis risus egestas enim cursus odio dui.</p>
+                    <div className='blog-heading'><p>{title}</p><MdCallMade className='blog-arrow'/></div>
+                    <p className='blog-text'>{desc}</p>
                     <div className='blog-details'>
                         <div className='blog-profile'>
                             <div className='blog-prof-img'><img src={profImg} alt="" /></div>
-                            <p>Hasibur Rahman</p>
+                            <p>Insan Arafat Jamil</p>
                         </div>
-                        <p className='blog-date'>Jan 23,2024</p>
+                        <p className='blog-date'>{date}</p>
                     </div>
                 </div>
             </Link>

@@ -15,6 +15,7 @@ import ConstructionPage from './Pages/ConstructionPage/ConstructionPage'
 import MachineMonitoring from './Pages/IOTProducts/Machine Monitoring/MachineMonitoring'
 import EnvitonmentMonitoring from './Pages/IOTProducts/Environment Monitoring/EnvitonmentMonitoring'
 import OtherProducts from './Pages/IOTProducts/Other products/OtherProducts'
+import BlogDetailPage2 from './Pages/BlogDetailPage/BlogDetailPage2'
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/informationdesk' element={<InformationDesk/>}/>
           <Route path='/blogs' element={<BlogsPage/>} />
           <Route path= '/blogDetailPage' element={<BlogDetailPage/>}/>
+          <Route path= '/blogDetailPage2' element={<BlogDetailPage2/>}/>
           <Route path= '/iotproducts'   element={<IotProducts/>}>
             <Route path='machine-monitoring'  index element={<MachineMonitoring/>}/>
             <Route path='enivonment-monitoring' element={<EnvitonmentMonitoring/>}/>

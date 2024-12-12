@@ -38,7 +38,7 @@ const Ourleader = () => {
         <div className="second-contents-ourL">
           <CardL
             title1="Dr. Arif Iftakher Mahmood"
-            title2="Co-founder and Chairman"
+            title2="Director, Products & Innovation"
             image={arif}
             email="arifmahmood@factorynext.com.bd"
             linkedIn=""
@@ -77,7 +77,7 @@ const Ourleader = () => {
         />
         <CardL
           title1="Dr. Arif Iftakher Mahmood"
-          title2="Co-founder and Chairman"
+          title2="Director, Products & Innovation"
           image={arif}
           email="arifmahmood@factorynext.com.bd"
           linkedIn=""
